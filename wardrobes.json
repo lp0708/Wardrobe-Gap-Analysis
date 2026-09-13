@@ -1,0 +1,314 @@
+[
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0128",
+    "date_acquired": "2025-08-05",
+    "price_paid": 1649
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0179",
+    "date_acquired": "2025-03-21",
+    "price_paid": 1149
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0005",
+    "date_acquired": "2025-02-05",
+    "price_paid": 499
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0089",
+    "date_acquired": "2025-08-11",
+    "price_paid": 899
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0073",
+    "date_acquired": "2025-04-30",
+    "price_paid": 1249
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0092",
+    "date_acquired": "2025-10-05",
+    "price_paid": 549
+  },
+  {
+    "customer_id": "C001",
+    "owned_product_id": "P0100",
+    "date_acquired": "2026-04-19",
+    "price_paid": 1849
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0032",
+    "date_acquired": "2026-05-09",
+    "price_paid": 1199
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0157",
+    "date_acquired": "2025-01-01",
+    "price_paid": 599
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0155",
+    "date_acquired": "2026-01-21",
+    "price_paid": 1949
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0023",
+    "date_acquired": "2026-02-04",
+    "price_paid": 2149
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0020",
+    "date_acquired": "2025-04-26",
+    "price_paid": 999
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0109",
+    "date_acquired": "2026-01-19",
+    "price_paid": 1399
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0055",
+    "date_acquired": "2026-04-14",
+    "price_paid": 1049
+  },
+  {
+    "customer_id": "C002",
+    "owned_product_id": "P0008",
+    "date_acquired": "2026-01-12",
+    "price_paid": 2199
+  },
+  {
+    "customer_id": "C003",
+    "owned_product_id": "P0010",
+    "date_acquired": "2025-06-05",
+    "price_paid": 2199
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0177",
+    "date_acquired": "2025-08-12",
+    "price_paid": 949
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0033",
+    "date_acquired": "2025-09-09",
+    "price_paid": 749
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0179",
+    "date_acquired": "2025-11-07",
+    "price_paid": 1199
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0013",
+    "date_acquired": "2025-08-23",
+    "price_paid": 899
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0005",
+    "date_acquired": "2025-04-21",
+    "price_paid": 449
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0109",
+    "date_acquired": "2026-03-15",
+    "price_paid": 1299
+  },
+  {
+    "customer_id": "C004",
+    "owned_product_id": "P0155",
+    "date_acquired": "2026-03-16",
+    "price_paid": 1849
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0136",
+    "date_acquired": "2025-06-25",
+    "price_paid": 1499
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0176",
+    "date_acquired": "2026-02-21",
+    "price_paid": 849
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0048",
+    "date_acquired": "2025-10-11",
+    "price_paid": 1399
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0146",
+    "date_acquired": "2026-03-20",
+    "price_paid": 1499
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0155",
+    "date_acquired": "2026-04-02",
+    "price_paid": 1949
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0047",
+    "date_acquired": "2025-04-14",
+    "price_paid": 1549
+  },
+  {
+    "customer_id": "C005",
+    "owned_product_id": "P0112",
+    "date_acquired": "2025-06-21",
+    "price_paid": 999
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0048",
+    "date_acquired": "2026-02-11",
+    "price_paid": 1349
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0086",
+    "date_acquired": "2025-03-03",
+    "price_paid": 2099
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0073",
+    "date_acquired": "2026-04-15",
+    "price_paid": 1149
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0062",
+    "date_acquired": "2026-04-17",
+    "price_paid": 2149
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0063",
+    "date_acquired": "2026-01-30",
+    "price_paid": 1449
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0056",
+    "date_acquired": "2025-11-22",
+    "price_paid": 2099
+  },
+  {
+    "customer_id": "C006",
+    "owned_product_id": "P0065",
+    "date_acquired": "2025-09-11",
+    "price_paid": 1149
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0066",
+    "date_acquired": "2025-04-06",
+    "price_paid": 2299
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0099",
+    "date_acquired": "2025-01-12",
+    "price_paid": 1899
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0165",
+    "date_acquired": "2026-04-03",
+    "price_paid": 1299
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0170",
+    "date_acquired": "2025-04-06",
+    "price_paid": 899
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0018",
+    "date_acquired": "2026-05-15",
+    "price_paid": 749
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0023",
+    "date_acquired": "2025-08-30",
+    "price_paid": 2099
+  },
+  {
+    "customer_id": "C007",
+    "owned_product_id": "P0020",
+    "date_acquired": "2025-11-07",
+    "price_paid": 1049
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0161",
+    "date_acquired": "2025-02-16",
+    "price_paid": 949
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0109",
+    "date_acquired": "2026-02-28",
+    "price_paid": 1399
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0044",
+    "date_acquired": "2025-06-26",
+    "price_paid": 1349
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0135",
+    "date_acquired": "2026-02-03",
+    "price_paid": 499
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0015",
+    "date_acquired": "2025-05-04",
+    "price_paid": 1499
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0034",
+    "date_acquired": "2026-02-28",
+    "price_paid": 1249
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0072",
+    "date_acquired": "2025-01-28",
+    "price_paid": 999
+  },
+  {
+    "customer_id": "C008",
+    "owned_product_id": "P0080",
+    "date_acquired": "2025-04-09",
+    "price_paid": 1199
+  }
+]

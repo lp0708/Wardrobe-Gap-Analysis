@@ -1,0 +1,272 @@
+[
+  {
+    "offer_id": "O001",
+    "applies_to_product_id": "P0092",
+    "offer_type": "percentage_off",
+    "discount_percentage": 25,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-23"
+  },
+  {
+    "offer_id": "O002",
+    "applies_to_product_id": "P0170",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 15,
+    "condition_type": "category_pair",
+    "condition_category": "bottom",
+    "valid_until": "2026-10-26"
+  },
+  {
+    "offer_id": "O003",
+    "applies_to_product_id": "P0066",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 20,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-09-26"
+  },
+  {
+    "offer_id": "O004",
+    "applies_to_product_id": "P0037",
+    "offer_type": "seasonal_sale",
+    "discount_percentage": 20,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-09"
+  },
+  {
+    "offer_id": "O005",
+    "applies_to_product_id": "P0110",
+    "offer_type": "percentage_off",
+    "discount_percentage": 20,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-09"
+  },
+  {
+    "offer_id": "O006",
+    "applies_to_product_id": "P0013",
+    "offer_type": "seasonal_sale",
+    "discount_percentage": 25,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-27"
+  },
+  {
+    "offer_id": "O007",
+    "applies_to_product_id": "P0114",
+    "offer_type": "seasonal_sale",
+    "discount_percentage": 20,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-09-29"
+  },
+  {
+    "offer_id": "O008",
+    "applies_to_product_id": "P0151",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-24"
+  },
+  {
+    "offer_id": "O009",
+    "applies_to_product_id": "P0012",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-20"
+  },
+  {
+    "offer_id": "O010",
+    "applies_to_product_id": "P0094",
+    "offer_type": "percentage_off",
+    "discount_percentage": 15,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-25"
+  },
+  {
+    "offer_id": "O011",
+    "applies_to_product_id": "P0009",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 15,
+    "condition_type": "category_pair",
+    "condition_category": "bottom",
+    "valid_until": "2026-10-01"
+  },
+  {
+    "offer_id": "O012",
+    "applies_to_product_id": "P0103",
+    "offer_type": "percentage_off",
+    "discount_percentage": 10,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-19"
+  },
+  {
+    "offer_id": "O013",
+    "applies_to_product_id": "P0112",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-29"
+  },
+  {
+    "offer_id": "O014",
+    "applies_to_product_id": "P0001",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 10,
+    "condition_type": "category_pair",
+    "condition_category": "bottom",
+    "valid_until": "2026-10-23"
+  },
+  {
+    "offer_id": "O015",
+    "applies_to_product_id": "P0104",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 20,
+    "condition_type": "category_pair",
+    "condition_category": "top",
+    "valid_until": "2026-10-22"
+  },
+  {
+    "offer_id": "O016",
+    "applies_to_product_id": "P0180",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 10,
+    "condition_type": "category_pair",
+    "condition_category": "top",
+    "valid_until": "2026-10-22"
+  },
+  {
+    "offer_id": "O017",
+    "applies_to_product_id": "P0036",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-01"
+  },
+  {
+    "offer_id": "O018",
+    "applies_to_product_id": "P0176",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-30"
+  },
+  {
+    "offer_id": "O019",
+    "applies_to_product_id": "P0141",
+    "offer_type": "seasonal_sale",
+    "discount_percentage": 25,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-09-28"
+  },
+  {
+    "offer_id": "O020",
+    "applies_to_product_id": "P0155",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 15,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-10-28"
+  },
+  {
+    "offer_id": "O021",
+    "applies_to_product_id": "P0169",
+    "offer_type": "percentage_off",
+    "discount_percentage": 25,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-04"
+  },
+  {
+    "offer_id": "O022",
+    "applies_to_product_id": "P0150",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 25,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-10-17"
+  },
+  {
+    "offer_id": "O023",
+    "applies_to_product_id": "P0121",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 20,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-09-27"
+  },
+  {
+    "offer_id": "O024",
+    "applies_to_product_id": "P0024",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-09-25"
+  },
+  {
+    "offer_id": "O025",
+    "applies_to_product_id": "P0161",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 15,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-10-18"
+  },
+  {
+    "offer_id": "O026",
+    "applies_to_product_id": "P0054",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-09-21"
+  },
+  {
+    "offer_id": "O027",
+    "applies_to_product_id": "P0138",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-15"
+  },
+  {
+    "offer_id": "O028",
+    "applies_to_product_id": "P0088",
+    "offer_type": "free_shipping",
+    "discount_percentage": 0,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-09-23"
+  },
+  {
+    "offer_id": "O029",
+    "applies_to_product_id": "P0072",
+    "offer_type": "percentage_off",
+    "discount_percentage": 20,
+    "condition_type": "none",
+    "condition_category": null,
+    "valid_until": "2026-10-29"
+  },
+  {
+    "offer_id": "O030",
+    "applies_to_product_id": "P0157",
+    "offer_type": "bundle_discount",
+    "discount_percentage": 25,
+    "condition_type": "category_pair",
+    "condition_category": "shoes",
+    "valid_until": "2026-10-16"
+  }
+]

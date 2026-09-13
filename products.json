@@ -1,0 +1,2613 @@
+[
+  {
+    "product_id": "P0001",
+    "name": "Yellow Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "yellow",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1699,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0002",
+    "name": "Brown Chelsea Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 999,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0003",
+    "name": "Yellow Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "yellow",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1849,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0004",
+    "name": "Olive Crop Top",
+    "category": "top",
+    "subcategory": "crop-top",
+    "color": "olive",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 599,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0005",
+    "name": "Beige Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "beige",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 549,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0006",
+    "name": "Purple Jeans",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "purple",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 1049,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0007",
+    "name": "Orange Blazer",
+    "category": "outerwear",
+    "subcategory": "blazer",
+    "color": "orange",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1449,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0008",
+    "name": "Grey Blazer",
+    "category": "outerwear",
+    "subcategory": "blazer",
+    "color": "grey",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 2299,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0009",
+    "name": "Yellow Shorts",
+    "category": "bottom",
+    "subcategory": "shorts",
+    "color": "yellow",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1799,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0010",
+    "name": "Red Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "red",
+    "style_tags": [
+      "ethnic"
+    ],
+    "occasion": "festive",
+    "season": "winter",
+    "price": 2299,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0011",
+    "name": "Blue Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "blue",
+    "style_tags": [
+      "ethnic"
+    ],
+    "occasion": "festive",
+    "season": "summer",
+    "price": 2449,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0012",
+    "name": "Beige Denim Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "beige",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 2499,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0013",
+    "name": "Navy Everyday Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "navy",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 999,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0014",
+    "name": "Yellow Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "yellow",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 2049,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0015",
+    "name": "Brown Sweater",
+    "category": "top",
+    "subcategory": "sweater",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1499,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0016",
+    "name": "Yellow Shorts",
+    "category": "bottom",
+    "subcategory": "shorts",
+    "color": "yellow",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 899,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0017",
+    "name": "Navy Casual Dress",
+    "category": "dress",
+    "subcategory": "casual-dress",
+    "color": "navy",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1449,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0018",
+    "name": "Blue Chelsea Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "blue",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 849,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0019",
+    "name": "Pink Formal Shoes",
+    "category": "shoes",
+    "subcategory": "formal-shoes",
+    "color": "pink",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "winter",
+    "price": 2049,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0020",
+    "name": "White Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "white",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 1099,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0021",
+    "name": "Beige Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "beige",
+    "style_tags": [
+      "fusion",
+      "formal"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 849,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0022",
+    "name": "Beige Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 899,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0023",
+    "name": "White Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "white",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 2149,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0024",
+    "name": "Beige Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "beige",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1699,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0025",
+    "name": "Olive Everyday Backpack",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "olive",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 599,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0026",
+    "name": "Pink Crop Top",
+    "category": "top",
+    "subcategory": "crop-top",
+    "color": "pink",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 1299,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0027",
+    "name": "Green Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "green",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 549,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0028",
+    "name": "Brown Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 2249,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0029",
+    "name": "Navy Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 1249,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0030",
+    "name": "Brown Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "brown",
+    "style_tags": [
+      "fusion",
+      "ethnic"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 1599,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0031",
+    "name": "Orange Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "orange",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1749,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0032",
+    "name": "White Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "white",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "party",
+    "season": "winter",
+    "price": 1249,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0033",
+    "name": "White Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "white",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 849,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0034",
+    "name": "Brown Sandals",
+    "category": "shoes",
+    "subcategory": "sandals",
+    "color": "brown",
+    "style_tags": [
+      "casual",
+      "fusion"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1249,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0035",
+    "name": "Brown Canvas Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "brown",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 2049,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0036",
+    "name": "Pink Blazer",
+    "category": "outerwear",
+    "subcategory": "blazer",
+    "color": "pink",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1149,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0037",
+    "name": "Navy Jeans",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "navy",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 1499,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0038",
+    "name": "Green Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "green",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1149,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0039",
+    "name": "Navy Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 1799,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0040",
+    "name": "Blue Everyday Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "blue",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1499,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0041",
+    "name": "Purple Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "purple",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1399,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0042",
+    "name": "Orange Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "orange",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 699,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0043",
+    "name": "Pink Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1249,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0044",
+    "name": "Navy Oxford Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "navy",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1399,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0045",
+    "name": "Beige Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "beige",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "winter",
+    "price": 1849,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0046",
+    "name": "Yellow Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "yellow",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 2299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0047",
+    "name": "Black Cargo Pants",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "black",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "festive",
+    "season": "all-season",
+    "price": 1649,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0048",
+    "name": "Black Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "black",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1449,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0049",
+    "name": "Yellow Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "yellow",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 1849,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0050",
+    "name": "Yellow Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "yellow",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0051",
+    "name": "Blue Chelsea Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "blue",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 1349,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0052",
+    "name": "Orange Sandals",
+    "category": "shoes",
+    "subcategory": "sandals",
+    "color": "orange",
+    "style_tags": [
+      "casual",
+      "fusion"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1449,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0053",
+    "name": "Olive Oxford Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 849,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0054",
+    "name": "Pink Blazer",
+    "category": "outerwear",
+    "subcategory": "blazer",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1399,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0055",
+    "name": "Grey Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "grey",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 1049,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0056",
+    "name": "Black Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "black",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "monsoon",
+    "price": 2149,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0057",
+    "name": "Beige Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "beige",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "festive",
+    "season": "all-season",
+    "price": 1199,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0058",
+    "name": "Yellow Pleated Skirt",
+    "category": "bottom",
+    "subcategory": "skirt",
+    "color": "yellow",
+    "style_tags": [
+      "fusion",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1099,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0059",
+    "name": "Navy Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "navy",
+    "style_tags": [
+      "fusion",
+      "casual"
+    ],
+    "occasion": "festive",
+    "season": "summer",
+    "price": 1549,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0060",
+    "name": "Purple Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "purple",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 2399,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0061",
+    "name": "Brown Everyday Backpack",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1349,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0062",
+    "name": "Olive Casual Dress",
+    "category": "dress",
+    "subcategory": "casual-dress",
+    "color": "olive",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 2199,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0063",
+    "name": "Black Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "black",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1449,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0064",
+    "name": "Black Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "black",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1949,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0065",
+    "name": "Olive Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "olive",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "winter",
+    "price": 1199,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0066",
+    "name": "Green Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "green",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 2349,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0067",
+    "name": "Brown Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 1249,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0068",
+    "name": "Yellow Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "yellow",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 2499,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0069",
+    "name": "Brown Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "monsoon",
+    "price": 2349,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0070",
+    "name": "White Cargo Pants",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "white",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "summer",
+    "price": 1049,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0071",
+    "name": "Olive Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "olive",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 1249,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0072",
+    "name": "Brown Oxford Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "brown",
+    "style_tags": [
+      "casual",
+      "formal"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 999,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0073",
+    "name": "Black Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "black",
+    "style_tags": [
+      "casual",
+      "fusion"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1249,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0074",
+    "name": "Purple Leather Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "purple",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 799,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0075",
+    "name": "Pink Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 749,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0076",
+    "name": "Navy Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "navy",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1099,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0077",
+    "name": "Brown Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "brown",
+    "style_tags": [
+      "fusion"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1799,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0078",
+    "name": "Brown Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "brown",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1449,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0079",
+    "name": "Purple Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "purple",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "party",
+    "season": "monsoon",
+    "price": 1249,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0080",
+    "name": "Beige Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1249,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0081",
+    "name": "Orange Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "orange",
+    "style_tags": [
+      "ethnic",
+      "fusion"
+    ],
+    "occasion": "festive",
+    "season": "winter",
+    "price": 1749,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0082",
+    "name": "Orange Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "orange",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 2399,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0083",
+    "name": "Blue Shorts",
+    "category": "bottom",
+    "subcategory": "shorts",
+    "color": "blue",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1899,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0084",
+    "name": "Brown Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 2399,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0085",
+    "name": "Green Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "green",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 1599,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0086",
+    "name": "Olive Casual Dress",
+    "category": "dress",
+    "subcategory": "casual-dress",
+    "color": "olive",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 2099,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0087",
+    "name": "Green Casual Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "green",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1499,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0088",
+    "name": "Olive Casual Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1149,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0089",
+    "name": "White Cap",
+    "category": "accessory",
+    "subcategory": "cap",
+    "color": "white",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 999,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0090",
+    "name": "Orange Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "orange",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 1999,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0091",
+    "name": "Pink Casual Dress",
+    "category": "dress",
+    "subcategory": "casual-dress",
+    "color": "pink",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 2249,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0092",
+    "name": "Black Crop Top",
+    "category": "top",
+    "subcategory": "crop-top",
+    "color": "black",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 549,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0093",
+    "name": "Red Formal Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "red",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "monsoon",
+    "price": 1849,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0094",
+    "name": "Yellow Casual Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "yellow",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1099,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0095",
+    "name": "Brown Midi Dress",
+    "category": "dress",
+    "subcategory": "midi-dress",
+    "color": "brown",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 2199,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0096",
+    "name": "Green Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "green",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1099,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0097",
+    "name": "Beige Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "beige",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0098",
+    "name": "Pink Leather Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 849,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0099",
+    "name": "Green Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "green",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1999,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0100",
+    "name": "Beige Midi Dress",
+    "category": "dress",
+    "subcategory": "midi-dress",
+    "color": "beige",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 1849,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0101",
+    "name": "Olive Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "olive",
+    "style_tags": [
+      "fusion"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 2449,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0102",
+    "name": "Brown Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1349,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0103",
+    "name": "Purple Denim Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "purple",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1849,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0104",
+    "name": "Orange Shorts",
+    "category": "bottom",
+    "subcategory": "shorts",
+    "color": "orange",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1149,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0105",
+    "name": "Red Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "red",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 2349,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0106",
+    "name": "Brown Everyday Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 2099,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0107",
+    "name": "Blue Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "blue",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1399,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0108",
+    "name": "Brown Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "brown",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1049,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0109",
+    "name": "Navy Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "navy",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1399,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0110",
+    "name": "Orange Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "orange",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 1149,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0111",
+    "name": "Red Formal Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "red",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1799,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0112",
+    "name": "Grey Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "grey",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1099,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0113",
+    "name": "Pink Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "pink",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1149,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0114",
+    "name": "Pink Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "pink",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 349,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0115",
+    "name": "Pink Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 2249,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0116",
+    "name": "Purple Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "purple",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1499,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0117",
+    "name": "Grey Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "grey",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 1649,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0118",
+    "name": "Purple Leather Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "purple",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1199,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0119",
+    "name": "Purple Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "purple",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1549,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0120",
+    "name": "Black Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "black",
+    "style_tags": [
+      "fusion"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 2449,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0121",
+    "name": "Navy Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "navy",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 399,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0122",
+    "name": "Yellow Cargo Pants",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "yellow",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "all-season",
+    "price": 1699,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0123",
+    "name": "Green Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "green",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 2349,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0124",
+    "name": "Brown Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1249,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0125",
+    "name": "Black Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "black",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "party",
+    "season": "monsoon",
+    "price": 1199,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0126",
+    "name": "Orange Denim Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "orange",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 2449,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0127",
+    "name": "Navy Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 999,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0128",
+    "name": "Black Canvas Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "black",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1649,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0129",
+    "name": "Blue Leather Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "blue",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 1249,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0130",
+    "name": "Orange Everyday Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "orange",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1049,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0131",
+    "name": "Pink Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "pink",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 1749,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0132",
+    "name": "Pink Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "pink",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 749,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0133",
+    "name": "Red Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "red",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1049,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0134",
+    "name": "Beige Casual Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "style_tags": [
+      "formal",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1249,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0135",
+    "name": "Brown Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "office",
+    "season": "monsoon",
+    "price": 499,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0136",
+    "name": "Grey Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "grey",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1599,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0137",
+    "name": "Orange Pleated Skirt",
+    "category": "bottom",
+    "subcategory": "skirt",
+    "color": "orange",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "party",
+    "season": "summer",
+    "price": 1299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0138",
+    "name": "Pink Formal Shoes",
+    "category": "shoes",
+    "subcategory": "formal-shoes",
+    "color": "pink",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 1849,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0139",
+    "name": "Yellow Everyday Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "yellow",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 2349,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0140",
+    "name": "Orange Lightweight Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "orange",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1199,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0141",
+    "name": "Black Chelsea Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "black",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 1799,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0142",
+    "name": "Blue Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "blue",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1749,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0143",
+    "name": "Navy Jeans",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "navy",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1999,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0144",
+    "name": "Brown Maxi Dress",
+    "category": "dress",
+    "subcategory": "maxi-dress",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 2349,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0145",
+    "name": "Beige Sweater",
+    "category": "top",
+    "subcategory": "sweater",
+    "color": "beige",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 1399,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0146",
+    "name": "Grey Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "grey",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1499,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0147",
+    "name": "Navy Crop Top",
+    "category": "top",
+    "subcategory": "crop-top",
+    "color": "navy",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1099,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0148",
+    "name": "Purple Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "purple",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0149",
+    "name": "White Tote Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "white",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "all-season",
+    "price": 299,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0150",
+    "name": "Grey Hoodie",
+    "category": "top",
+    "subcategory": "hoodie",
+    "color": "grey",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 1399,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0151",
+    "name": "Pink Pleated Skirt",
+    "category": "bottom",
+    "subcategory": "skirt",
+    "color": "pink",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "winter",
+    "price": 1099,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0152",
+    "name": "Pink Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "pink",
+    "style_tags": [
+      "fusion"
+    ],
+    "occasion": "festive",
+    "season": "all-season",
+    "price": 1549,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0153",
+    "name": "Yellow Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "yellow",
+    "style_tags": [
+      "smart-casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "winter",
+    "price": 2499,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0154",
+    "name": "Brown Sweater",
+    "category": "top",
+    "subcategory": "sweater",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1499,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0155",
+    "name": "White Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "white",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1949,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0156",
+    "name": "Green Casual Dress",
+    "category": "dress",
+    "subcategory": "casual-dress",
+    "color": "green",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 2349,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0157",
+    "name": "Navy Casual Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "navy",
+    "style_tags": [
+      "formal",
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 649,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0158",
+    "name": "Beige Overshirt",
+    "category": "outerwear",
+    "subcategory": "overshirt",
+    "color": "beige",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1199,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0159",
+    "name": "Purple Cap",
+    "category": "accessory",
+    "subcategory": "cap",
+    "color": "purple",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 499,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0160",
+    "name": "Grey Midi Dress",
+    "category": "dress",
+    "subcategory": "midi-dress",
+    "color": "grey",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "winter",
+    "price": 2399,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0161",
+    "name": "Brown Formal Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "brown",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "winter",
+    "price": 999,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0162",
+    "name": "Purple Wide-Leg Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "purple",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "festive",
+    "season": "summer",
+    "price": 1899,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0163",
+    "name": "Brown Formal Shoes",
+    "category": "shoes",
+    "subcategory": "formal-shoes",
+    "color": "brown",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "festive",
+    "season": "all-season",
+    "price": 1299,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0164",
+    "name": "Purple Jeans",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "purple",
+    "style_tags": [
+      "streetwear",
+      "casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 1049,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0165",
+    "name": "White Festive Dress",
+    "category": "dress",
+    "subcategory": "festive-dress",
+    "color": "white",
+    "style_tags": [
+      "ethnic",
+      "fusion"
+    ],
+    "occasion": "festive",
+    "season": "summer",
+    "price": 1349,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0166",
+    "name": "Navy Cap",
+    "category": "accessory",
+    "subcategory": "cap",
+    "color": "navy",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "winter",
+    "price": 1099,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0167",
+    "name": "White Chelsea Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "white",
+    "style_tags": [
+      "streetwear"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 799,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0168",
+    "name": "Pink Cap",
+    "category": "accessory",
+    "subcategory": "cap",
+    "color": "pink",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 1099,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0169",
+    "name": "Brown Cardigan",
+    "category": "outerwear",
+    "subcategory": "sweater",
+    "color": "brown",
+    "style_tags": [
+      "casual",
+      "smart-casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 2299,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0170",
+    "name": "Blue Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "blue",
+    "style_tags": [
+      "smart-casual",
+      "casual"
+    ],
+    "occasion": "casual",
+    "season": "all-season",
+    "price": 899,
+    "store": "EverydayEdit"
+  },
+  {
+    "product_id": "P0171",
+    "name": "Grey Oxford Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "grey",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 749,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0172",
+    "name": "Olive Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "olive",
+    "style_tags": [
+      "casual",
+      "streetwear"
+    ],
+    "occasion": "casual",
+    "season": "summer",
+    "price": 1899,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0173",
+    "name": "Black Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "black",
+    "style_tags": [
+      "formal"
+    ],
+    "occasion": "casual",
+    "season": "monsoon",
+    "price": 1449,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0174",
+    "name": "Navy Shirt Dress",
+    "category": "dress",
+    "subcategory": "shirt-dress",
+    "color": "navy",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "winter",
+    "price": 1499,
+    "store": "VintageVibesCo"
+  },
+  {
+    "product_id": "P0175",
+    "name": "Olive Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "olive",
+    "style_tags": [
+      "smart-casual"
+    ],
+    "occasion": "office",
+    "season": "all-season",
+    "price": 1699,
+    "store": "TrendStreet"
+  },
+  {
+    "product_id": "P0176",
+    "name": "White Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "white",
+    "style_tags": [
+      "formal",
+      "smart-casual"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 949,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0177",
+    "name": "White Jeans",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "white",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "monsoon",
+    "price": 999,
+    "store": "StyleHub"
+  },
+  {
+    "product_id": "P0178",
+    "name": "Yellow Trench Coat",
+    "category": "outerwear",
+    "subcategory": "coat",
+    "color": "yellow",
+    "style_tags": [
+      "smart-casual",
+      "formal"
+    ],
+    "occasion": "party",
+    "season": "all-season",
+    "price": 2299,
+    "store": "CampusCloset"
+  },
+  {
+    "product_id": "P0179",
+    "name": "Beige Minimal Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "beige",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "office",
+    "season": "summer",
+    "price": 1249,
+    "store": "UrbanWear"
+  },
+  {
+    "product_id": "P0180",
+    "name": "Brown Denim Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "brown",
+    "style_tags": [
+      "casual"
+    ],
+    "occasion": "college",
+    "season": "summer",
+    "price": 1649,
+    "store": "UrbanWear"
+  }
+]

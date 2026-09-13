@@ -1,0 +1,156 @@
+[
+  {
+    "customer_id": "C001",
+    "product_id": "P0063",
+    "event_type": "saved",
+    "timestamp": "2026-09-05",
+    "view_count": 3
+  },
+  {
+    "customer_id": "C001",
+    "product_id": "P0048",
+    "event_type": "viewed",
+    "timestamp": "2026-09-03",
+    "view_count": 4
+  },
+  {
+    "customer_id": "C001",
+    "product_id": "P0012",
+    "event_type": "viewed",
+    "timestamp": "2026-09-02",
+    "view_count": 3
+  },
+  {
+    "customer_id": "C001",
+    "product_id": "P0158",
+    "event_type": "added_to_cart",
+    "timestamp": "2026-09-03",
+    "view_count": 3
+  },
+  {
+    "customer_id": "C002",
+    "product_id": "P0146",
+    "event_type": "viewed",
+    "timestamp": "2026-09-08",
+    "view_count": 1
+  },
+  {
+    "customer_id": "C003",
+    "product_id": "P0021",
+    "event_type": "viewed",
+    "timestamp": "2026-09-03",
+    "view_count": 5
+  },
+  {
+    "customer_id": "C004",
+    "product_id": "P0020",
+    "event_type": "viewed",
+    "timestamp": "2026-09-08",
+    "view_count": 2
+  },
+  {
+    "customer_id": "C004",
+    "product_id": "P0022",
+    "event_type": "viewed",
+    "timestamp": "2026-09-08",
+    "view_count": 2
+  },
+  {
+    "customer_id": "C004",
+    "product_id": "P0080",
+    "event_type": "viewed",
+    "timestamp": "2026-09-07",
+    "view_count": 5
+  },
+  {
+    "customer_id": "C005",
+    "product_id": "P0171",
+    "event_type": "abandoned_cart",
+    "timestamp": "2026-09-07",
+    "view_count": 3
+  },
+  {
+    "customer_id": "C005",
+    "product_id": "P0023",
+    "event_type": "viewed",
+    "timestamp": "2026-09-01",
+    "view_count": 1
+  },
+  {
+    "customer_id": "C005",
+    "product_id": "P0055",
+    "event_type": "abandoned_cart",
+    "timestamp": "2026-09-01",
+    "view_count": 1
+  },
+  {
+    "customer_id": "C006",
+    "product_id": "P0116",
+    "event_type": "viewed",
+    "timestamp": "2026-09-07",
+    "view_count": 5
+  },
+  {
+    "customer_id": "C006",
+    "product_id": "P0067",
+    "event_type": "viewed",
+    "timestamp": "2026-09-01",
+    "view_count": 4
+  },
+  {
+    "customer_id": "C006",
+    "product_id": "P0119",
+    "event_type": "viewed",
+    "timestamp": "2026-09-08",
+    "view_count": 2
+  },
+  {
+    "customer_id": "C006",
+    "product_id": "P0142",
+    "event_type": "saved",
+    "timestamp": "2026-09-08",
+    "view_count": 3
+  },
+  {
+    "customer_id": "C007",
+    "product_id": "P0089",
+    "event_type": "abandoned_cart",
+    "timestamp": "2026-09-08",
+    "view_count": 5
+  },
+  {
+    "customer_id": "C007",
+    "product_id": "P0149",
+    "event_type": "added_to_cart",
+    "timestamp": "2026-09-02",
+    "view_count": 1
+  },
+  {
+    "customer_id": "C008",
+    "product_id": "P0028",
+    "event_type": "abandoned_cart",
+    "timestamp": "2026-09-06",
+    "view_count": 2
+  },
+  {
+    "customer_id": "C008",
+    "product_id": "P0067",
+    "event_type": "viewed",
+    "timestamp": "2026-09-05",
+    "view_count": 4
+  },
+  {
+    "customer_id": "C008",
+    "product_id": "P0069",
+    "event_type": "viewed",
+    "timestamp": "2026-09-02",
+    "view_count": 2
+  },
+  {
+    "customer_id": "C008",
+    "product_id": "P0012",
+    "event_type": "viewed",
+    "timestamp": "2026-09-06",
+    "view_count": 2
+  }
+]

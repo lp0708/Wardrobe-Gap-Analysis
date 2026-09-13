@@ -1,0 +1,71 @@
+/* Palette: one warm accent (muted terracotta) against warm neutrals.
+   The Y2K/thrift nod lives in the type pairing and the slightly oversized
+   letter-spacing on labels - not in colour noise. */
+:root {
+  --terracotta: #b0563a;
+  --terracotta-soft: #f0dcd4;
+  --terracotta-deep: #8a3f28;
+
+  --ink: #241f1c;
+  --ink-soft: #5b514b;
+  --ink-faint: #8d8179;
+
+  --paper: #faf6f1;
+  --card: #ffffff;
+  --line: #e6ddd4;
+  --line-strong: #d3c6ba;
+
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(36, 31, 28, 0.04), 0 8px 24px rgba(36, 31, 28, 0.06);
+
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Shared bits ---------------------------------------------------------- */
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px 28px;
+}
+
+.panel-title {
+  margin: 0 0 4px;
+  font-size: 19px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.panel-sub {
+  margin: 0 0 20px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
