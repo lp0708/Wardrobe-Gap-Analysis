@@ -1,0 +1,169 @@
+[
+  {
+    "customer_id": "C001",
+    "preferred_styles": [
+      "casual",
+      "streetwear"
+    ],
+    "preferred_colors": [
+      "black",
+      "white",
+      "beige"
+    ],
+    "avoided_colors": [
+      "neon"
+    ],
+    "budget": 1500,
+    "preferred_occasions": [
+      "college",
+      "casual"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C002",
+    "preferred_styles": [
+      "formal",
+      "smart-casual"
+    ],
+    "preferred_colors": [
+      "navy",
+      "white",
+      "grey"
+    ],
+    "avoided_colors": [
+      "orange"
+    ],
+    "budget": 2500,
+    "preferred_occasions": [
+      "office"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C003",
+    "preferred_styles": [
+      "ethnic",
+      "fusion"
+    ],
+    "preferred_colors": [
+      "green",
+      "beige",
+      "red"
+    ],
+    "avoided_colors": [
+      "neon"
+    ],
+    "budget": 2000,
+    "preferred_occasions": [
+      "festive",
+      "casual"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C004",
+    "preferred_styles": [
+      "casual",
+      "smart-casual"
+    ],
+    "preferred_colors": [
+      "beige",
+      "navy",
+      "white"
+    ],
+    "avoided_colors": [
+      "purple"
+    ],
+    "budget": 1800,
+    "preferred_occasions": [
+      "college",
+      "casual"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C005",
+    "preferred_styles": [
+      "formal",
+      "smart-casual"
+    ],
+    "preferred_colors": [
+      "black",
+      "white",
+      "grey"
+    ],
+    "avoided_colors": [
+      "yellow"
+    ],
+    "budget": 2200,
+    "preferred_occasions": [
+      "office",
+      "party"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C006",
+    "preferred_styles": [
+      "streetwear",
+      "casual"
+    ],
+    "preferred_colors": [
+      "black",
+      "olive",
+      "red"
+    ],
+    "avoided_colors": [
+      "pink"
+    ],
+    "budget": 1600,
+    "preferred_occasions": [
+      "college",
+      "party"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C007",
+    "preferred_styles": [
+      "casual",
+      "fusion"
+    ],
+    "preferred_colors": [
+      "blue",
+      "white",
+      "green"
+    ],
+    "avoided_colors": [
+      "orange"
+    ],
+    "budget": 1700,
+    "preferred_occasions": [
+      "casual",
+      "festive"
+    ],
+    "current_season": "monsoon"
+  },
+  {
+    "customer_id": "C008",
+    "preferred_styles": [
+      "smart-casual",
+      "casual"
+    ],
+    "preferred_colors": [
+      "navy",
+      "beige",
+      "brown"
+    ],
+    "avoided_colors": [
+      "purple"
+    ],
+    "budget": 2000,
+    "preferred_occasions": [
+      "college",
+      "office"
+    ],
+    "current_season": "monsoon"
+  }
+]

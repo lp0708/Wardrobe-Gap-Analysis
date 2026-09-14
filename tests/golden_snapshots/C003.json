@@ -1,0 +1,1434 @@
+{
+  "deterministic": {
+    "customer_id": "C003",
+    "profile": {
+      "customer_id": "C003",
+      "preferred_styles": [
+        "ethnic",
+        "fusion"
+      ],
+      "preferred_colors": [
+        "green",
+        "beige",
+        "red"
+      ],
+      "avoided_colors": [
+        "neon"
+      ],
+      "budget": 2000,
+      "preferred_occasions": [
+        "festive",
+        "casual"
+      ],
+      "current_season": "monsoon"
+    },
+    "gaps": {
+      "customer_id": "C003",
+      "missing_categories": [
+        {
+          "category": "outerwear",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        },
+        {
+          "category": "shoes",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        },
+        {
+          "category": "accessory",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        }
+      ],
+      "imbalances": [],
+      "occasion_gaps": [
+        {
+          "occasion": "casual",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        }
+      ],
+      "color_gap": false
+    },
+    "purchase_patterns": {
+      "customer_id": "C003",
+      "purchase_count": 1,
+      "has_sufficient_history": false,
+      "first_purchase": "2025-06-05",
+      "last_purchase": "2025-06-05",
+      "spend": {
+        "total": 2199,
+        "average": 2199,
+        "median": 2199,
+        "min": 2199,
+        "max": 2199,
+        "typical_range": [
+          2199,
+          2199
+        ],
+        "budget": 2000,
+        "average_vs_budget_pct": 110
+      },
+      "category_frequency": [
+        {
+          "category": "dress",
+          "count": 1,
+          "share_pct": 100
+        }
+      ],
+      "color_frequency": [
+        {
+          "color": "red",
+          "count": 1,
+          "share_pct": 100
+        }
+      ],
+      "style_frequency": [
+        {
+          "style": "ethnic",
+          "count": 1,
+          "share_pct": 100
+        }
+      ],
+      "occasion_frequency": [
+        {
+          "occasion": "festive",
+          "count": 1,
+          "share_pct": 100
+        }
+      ],
+      "preferred_categories": [],
+      "preferred_colors": [],
+      "dominant_styles": [],
+      "repeat_purchases": [],
+      "recent_purchases": [
+        {
+          "product_id": "P0010",
+          "name": "Red Festive Dress",
+          "category": "dress",
+          "subcategory": "festive-dress",
+          "color": "red",
+          "date_acquired": "2025-06-05",
+          "price_paid": 2199
+        }
+      ],
+      "stated_color_alignment": {
+        "stated_colors": [
+          "beige",
+          "green",
+          "red"
+        ],
+        "matching_purchases": 1,
+        "share_pct": 100
+      },
+      "headline": "Only 1 purchase on record (red festive-dress, Rs 2,199) - too few to establish buying patterns."
+    },
+    "browsing_intent": {
+      "customer_id": "C003",
+      "as_of": "2026-09-08",
+      "event_count": 1,
+      "has_sufficient_evidence": false,
+      "headline": "Not enough browsing to infer intent (1 event, 5 views in total).",
+      "category_intents": [
+        {
+          "category": "top",
+          "score": 1.6,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0021"
+          ],
+          "subcategories": [
+            "blouse"
+          ],
+          "event_types": {
+            "viewed": 1
+          },
+          "total_views": 5,
+          "dominant_season": null,
+          "dominant_color": null,
+          "dominant_occasion": null
+        }
+      ],
+      "occasion_intents": [
+        {
+          "occasion": "party",
+          "score": 1.6,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0021"
+          ]
+        }
+      ],
+      "color_intents": [
+        {
+          "color": "beige",
+          "score": 1.6,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0021"
+          ]
+        }
+      ],
+      "high_intent_products": [
+        {
+          "product_id": "P0021",
+          "name": "Beige Blouse",
+          "category": "top",
+          "subcategory": "blouse",
+          "event_type": "viewed",
+          "view_count": 5,
+          "timestamp": "2026-09-03",
+          "weight": 1.6
+        }
+      ]
+    },
+    "seasonal_context": {
+      "customer_id": "C003",
+      "season": "monsoon",
+      "has_trend_data": true,
+      "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+      "trending_categories": {
+        "outerwear": "high",
+        "shoes": "high",
+        "top": "medium"
+      },
+      "trending_subcategories": [
+        "jacket",
+        "overshirt",
+        "boots",
+        "sneakers",
+        "hoodie"
+      ],
+      "relevant_colors": [
+        "black",
+        "navy",
+        "olive",
+        "brown"
+      ],
+      "popular_styles": [
+        "casual",
+        "streetwear"
+      ],
+      "notes": "Light layers and closed footwear for wet weather, in darker shades.",
+      "matches_customer": {
+        "colors": [],
+        "styles": []
+      },
+      "in_season_catalogue": {
+        "total": 41,
+        "within_budget": 33,
+        "trending_within_budget": 9
+      },
+      "observed_demand": {
+        "event_count": 22,
+        "customer_count": 8,
+        "top_categories": [
+          {
+            "category": "outerwear",
+            "events": 14,
+            "share_pct": 64
+          },
+          {
+            "category": "bottom",
+            "events": 3,
+            "share_pct": 14
+          },
+          {
+            "category": "top",
+            "events": 2,
+            "share_pct": 9
+          }
+        ]
+      },
+      "headline": "Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand."
+    },
+    "ranking": {
+      "customer_id": "C003",
+      "filters": {
+        "category": null,
+        "recommendation_type": null,
+        "limit": 20
+      },
+      "considered": 180,
+      "eligible": 90,
+      "excluded": {
+        "no_personalised_signal": 55,
+        "over_budget": 35
+      },
+      "candidates": [
+        {
+          "product_id": "P0108",
+          "name": "Brown Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "brown",
+          "price": 1049,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 56,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0103",
+          "name": "Purple Denim Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "purple",
+          "price": 1849,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "CampusCloset",
+          "score": 56,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "offer",
+              "points": 6,
+              "evidence": "Active offer: 10% percentage off, valid until 2026-10-19"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O012",
+            "applies_to_product_id": "P0103",
+            "offer_type": "percentage_off",
+            "discount_percentage": 10,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-19"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); covers the medium-priority casual occasion gap; active offer: 10% percentage off, valid until 2026-10-19."
+        },
+        {
+          "product_id": "P0018",
+          "name": "Blue Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "blue",
+          "price": 849,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "TrendStreet",
+          "score": 54,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0040",
+          "name": "Blue Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "blue",
+          "price": 1499,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "EverydayEdit",
+          "score": 54,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0159",
+          "name": "Purple Cap",
+          "category": "accessory",
+          "subcategory": "cap",
+          "color": "purple",
+          "price": 499,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "StyleHub",
+          "score": 45,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual/streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0133",
+          "name": "Red Tote Bag",
+          "category": "accessory",
+          "subcategory": "bag",
+          "color": "red",
+          "price": 1049,
+          "season": "summer",
+          "occasion": "casual",
+          "store": "TrendStreet",
+          "score": 39,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (red)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (summer item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the medium-priority casual occasion gap; in a preferred colour (red)."
+        },
+        {
+          "product_id": "P0134",
+          "name": "Beige Casual Shirt",
+          "category": "top",
+          "subcategory": "shirt",
+          "color": "beige",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 35,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (beige)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; in a preferred colour (beige); in season for monsoon."
+        },
+        {
+          "product_id": "P0073",
+          "name": "Black Maxi Dress",
+          "category": "dress",
+          "subcategory": "maxi-dress",
+          "color": "black",
+          "price": 1249,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "StyleHub",
+          "score": 29,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred fusion style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; matches their preferred fusion style; for a preferred occasion (casual)."
+        },
+        {
+          "product_id": "P0080",
+          "name": "Beige Chinos",
+          "category": "bottom",
+          "subcategory": "chinos",
+          "color": "beige",
+          "price": 1249,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 29,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (beige)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; in a preferred colour (beige); for a preferred occasion (casual)."
+        },
+        {
+          "product_id": "P0150",
+          "name": "Grey Hoodie",
+          "category": "top",
+          "subcategory": "hoodie",
+          "color": "grey",
+          "price": 1399,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 28,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Hoodie is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; hoodie is on the curated monsoon trend list; for a preferred occasion (casual)."
+        },
+        {
+          "product_id": "P0077",
+          "name": "Brown Maxi Dress",
+          "category": "dress",
+          "subcategory": "maxi-dress",
+          "color": "brown",
+          "price": 1799,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 27,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred fusion style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; matches their preferred fusion style; for a preferred occasion (casual)."
+        },
+        {
+          "product_id": "P0143",
+          "name": "Navy Jeans",
+          "category": "bottom",
+          "subcategory": "jeans",
+          "color": "navy",
+          "price": 1999,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "CampusCloset",
+          "score": 27,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the medium-priority casual occasion gap; in season for monsoon; for a preferred occasion (casual)."
+        },
+        {
+          "product_id": "P0038",
+          "name": "Green Trench Coat",
+          "category": "outerwear",
+          "subcategory": "coat",
+          "color": "green",
+          "price": 1149,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "TrendStreet",
+          "score": 55,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (green)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); covers the medium-priority casual occasion gap; in a preferred colour (green)."
+        },
+        {
+          "product_id": "P0140",
+          "name": "Orange Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "orange",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "EverydayEdit",
+          "score": 54,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0002",
+          "name": "Brown Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "brown",
+          "price": 999,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 52,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); covers the medium-priority casual occasion gap; boots is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0173",
+          "name": "Black Trench Coat",
+          "category": "outerwear",
+          "subcategory": "coat",
+          "color": "black",
+          "price": 1449,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 49,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 12,
+              "evidence": "Covers the medium-priority casual occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (casual)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); covers the medium-priority casual occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0013",
+          "name": "Navy Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "navy",
+          "price": 999,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 48,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-10-27"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O006",
+            "applies_to_product_id": "P0013",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-27"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); active offer: 25% seasonal sale, valid until 2026-10-27; in season for monsoon."
+        },
+        {
+          "product_id": "P0158",
+          "name": "Beige Overshirt",
+          "category": "outerwear",
+          "subcategory": "overshirt",
+          "color": "beige",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 45,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing outerwear gap (they own none)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (beige)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Overshirt is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing outerwear gap (they own none); in a preferred colour (beige); in season for monsoon."
+        },
+        {
+          "product_id": "P0163",
+          "name": "Brown Formal Shoes",
+          "category": "shoes",
+          "subcategory": "formal-shoes",
+          "color": "brown",
+          "price": 1299,
+          "season": "all-season",
+          "occasion": "festive",
+          "store": "VintageVibesCo",
+          "score": 44,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Red Festive Dress (both for festive)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (festive)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 1 latest purchases (Red Festive Dress, bought 2025-06-05)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0010",
+              "name": "Red Festive Dress",
+              "category": "dress",
+              "color": "red",
+              "occasion": "festive",
+              "date_acquired": "2025-06-05"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); pairs with their Red Festive Dress (both for festive); for a preferred occasion (festive)."
+        },
+        {
+          "product_id": "P0141",
+          "name": "Black Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "black",
+          "price": 1799,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "TrendStreet",
+          "score": 44,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-09-28"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O019",
+            "applies_to_product_id": "P0141",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-09-28"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); active offer: 25% seasonal sale, valid until 2026-09-28; boots is on the curated monsoon trend list."
+        }
+      ]
+    }
+  },
+  "agent": {
+    "model": "gemini-3.5-flash",
+    "saved_at": "2026-09-14T15:48:40",
+    "summary": "Customer C003 prefers ethnic and fusion styles for casual and festive occasions within a Rs 2,000 budget, but currently has only one purchase on record. The biggest opportunity is to fill their medium-priority wardrobe gaps in outerwear, shoes, and accessories with casual, monsoon-appropriate items that align with their stated color preferences.",
+    "tool_calls": [
+      "get_customer_profile",
+      "analyze_outfit_gaps",
+      "analyze_purchase_patterns",
+      "detect_browsing_intent",
+      "get_seasonal_context",
+      "rank_recommendations",
+      "rank_recommendations",
+      "search_products"
+    ],
+    "recommendations": [
+      {
+        "product_id": "P0103",
+        "name": "Purple Denim Jacket",
+        "score": 56,
+        "types": [
+          "gap",
+          "seasonal"
+        ],
+        "primary_type": "gap",
+        "explanation": "This Rs 1,849 jacket fills the customer's medium-priority missing outerwear gap, covers their casual occasion gap, aligns with jackets on the curated monsoon trend list, and features an active 10% discount.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0018",
+        "name": "Blue Chelsea Boots",
+        "score": 54,
+        "types": [
+          "gap",
+          "seasonal"
+        ],
+        "primary_type": "gap",
+        "explanation": "Priced at Rs 849, these Chelsea boots fill the customer's medium-priority missing shoes gap, cover their casual occasion gap, and match a high-demand category on the curated monsoon trend list.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0021",
+        "name": "Beige Blouse",
+        "score": 21,
+        "types": [
+          "intent"
+        ],
+        "primary_type": "intent",
+        "explanation": "This Rs 849 blouse aligns with their preferred fusion style and beige color, falls under a category with medium demand on the curated monsoon trend list, and was viewed 5 times by the customer.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0133",
+        "name": "Red Tote Bag",
+        "score": 39,
+        "types": [
+          "gap"
+        ],
+        "primary_type": "gap",
+        "explanation": "Priced at Rs 1,049, this tote bag fills the customer's medium-priority missing accessory gap, covers their casual occasion gap, and matches their preferred color of red.",
+        "explanation_source": "agent"
+      }
+    ]
+  }
+}

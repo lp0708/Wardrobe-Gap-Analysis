@@ -7,10 +7,8 @@ import {
   Card,
   EmptyState,
   ErrorState,
-  IntentBadge,
   KpiCard,
   LoadingState,
-  OpportunityChips,
   PageHeader,
   Stat,
   useApi,
@@ -43,10 +41,6 @@ export default function DashboardPage() {
 
 function Dashboard({ data }) {
   const { kpis, customer_activity: activity, opportunity_overview: opportunities } = data;
-
-  const recentCustomers = [...data.customers]
-    .sort((a, b) => (b.last_browsed || "").localeCompare(a.last_browsed || ""))
-    .slice(0, 5);
 
   return (
     <div className="pf-stack">
@@ -149,94 +143,67 @@ function Dashboard({ data }) {
         </Card>
       </div>
 
-      <div className="pf-grid-2">
-        <Card
-          title="Recommendation activity"
-          subtitle="Latest saved agent run for each customer."
-          actions={
-            <Link className="pf-link" to="/recommendations">
-              All recommendations &rarr;
-            </Link>
-          }
-        >
-          {data.recent_runs.length === 0 ? (
-            <EmptyState
-              title="No agent runs yet"
-              action={
-                <Link className="pf-button" to="/demo">
-                  Run the agent
-                </Link>
-              }
-            >
-              Generate recommendations for a customer in the demo and they&rsquo;ll appear here.
-            </EmptyState>
-          ) : (
-            <div className="pf-table-wrap">
-              <table className="pf-table">
-                <thead>
-                  <tr>
-                    <th>Customer</th>
-                    <th>Top pick</th>
-                    <th className="pf-num">Picks</th>
-                    <th>Run</th>
+      <Card
+        title="Recommendation activity"
+        subtitle="Latest saved agent run for each customer."
+        actions={
+          <Link className="pf-link" to="/recommendations">
+            All recommendations &rarr;
+          </Link>
+        }
+      >
+        {data.recent_runs.length === 0 ? (
+          <EmptyState
+            title="No agent runs yet"
+            action={
+              <Link className="pf-button" to="/demo">
+                Run the agent
+              </Link>
+            }
+          >
+            Generate recommendations for a customer in the demo and they&rsquo;ll appear here.
+          </EmptyState>
+        ) : (
+          <div className="pf-table-wrap">
+            <table className="pf-table">
+              <thead>
+                <tr>
+                  <th>Customer</th>
+                  <th>Top pick</th>
+                  <th className="pf-num">Picks</th>
+                  <th>Run</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.recent_runs.map((run) => (
+                  <tr key={run.customer_id}>
+                    <td>
+                      <Link className="pf-id-link" to={`/customers/${run.customer_id}`}>
+                        {run.customer_id}
+                      </Link>
+                    </td>
+                    <td>
+                      {run.top_pick ? (
+                        <>
+                          {run.top_pick.name}
+                          <span className="pf-cell-sub">{TYPE_LABELS[run.top_pick.primary_type]}</span>
+                        </>
+                      ) : (
+                        "—"
+                      )}
+                    </td>
+                    <td className="pf-num">{run.recommendation_count}</td>
+                    <td>
+                      {formatDateTime(run.saved_at)}
+                      <span className="pf-cell-sub">{run.tool_calls} tool calls</span>
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {data.recent_runs.map((run) => (
-                    <tr key={run.customer_id}>
-                      <td>
-                        <Link className="pf-id-link" to={`/customers/${run.customer_id}`}>
-                          {run.customer_id}
-                        </Link>
-                      </td>
-                      <td>
-                        {run.top_pick ? (
-                          <>
-                            {run.top_pick.name}
-                            <span className="pf-cell-sub">{TYPE_LABELS[run.top_pick.primary_type]}</span>
-                          </>
-                        ) : (
-                          "—"
-                        )}
-                      </td>
-                      <td className="pf-num">{run.recommendation_count}</td>
-                      <td>
-                        {formatDateTime(run.saved_at)}
-                        <span className="pf-cell-sub">{run.tool_calls} tool calls</span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </Card>
-
-        <Card
-          title="Recently active customers"
-          subtitle="Ordered by latest browsing activity."
-          actions={
-            <Link className="pf-link" to="/customers">
-              All customers &rarr;
-            </Link>
-          }
-        >
-          <ul className="pf-list">
-            {recentCustomers.map((customer) => (
-              <li key={customer.customer_id} className="pf-list-row">
-                <Link className="pf-id-link" to={`/customers/${customer.customer_id}`}>
-                  {customer.customer_id}
-                </Link>
-                <span className="pf-list-main">
-                  <OpportunityChips items={customer.opportunities} max={2} />
-                </span>
-                <IntentBadge strength={customer.intent_strength} />
-                <span className="pf-list-date">{formatDate(customer.last_browsed)}</span>
-              </li>
-            ))}
-          </ul>
-        </Card>
-      </div>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </Card>
 
       <section className="pf-demo-cta">
         <div>

@@ -27,19 +27,10 @@ const NAV = [
   { to: "/analytics", label: "Analytics", icon: "analytics" },
 ];
 
-const TITLES = [
-  ["/dashboard", "Dashboard"],
-  ["/customers", "Customers"],
-  ["/recommendations", "Recommendations"],
-  ["/analytics", "Analytics"],
-  ["/demo", "Live AI demo"],
-];
-
 export default function Layout() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
   const isDemo = location.pathname.startsWith("/demo");
-  const section = TITLES.find(([path]) => location.pathname.startsWith(path))?.[1] || "";
 
   // Close the mobile drawer whenever the route changes.
   useEffect(() => {
@@ -51,9 +42,9 @@ export default function Layout() {
     <div className={`pf-shell ${menuOpen ? "pf-shell-menu-open" : ""}`}>
       <aside className="pf-sidebar" aria-label="Main navigation">
         <div className="pf-brand">
-          <span className="pf-brand-mark">RA</span>
+          <img className="pf-brand-mark" src="/logo.png" alt="" />
           <span className="pf-brand-text">
-            <span className="pf-brand-name">Retail Personalisation</span>
+            <span className="pf-brand-name">Recon</span>
             <span className="pf-brand-sub">AI retail intelligence</span>
           </span>
         </div>
@@ -85,10 +76,6 @@ export default function Layout() {
             </span>
           </NavLink>
         </nav>
-
-        <div className="pf-sidebar-foot">
-          Deterministic intelligence &middot; Gemini agent orchestration
-        </div>
       </aside>
 
       <button
@@ -99,7 +86,8 @@ export default function Layout() {
       />
 
       <div className="pf-main">
-        <header className="pf-topbar">
+        {/* Small screens only: the sidebar collapses, so this bar holds the menu button. */}
+        <div className="pf-mobile-bar">
           <button
             type="button"
             className="pf-menu-button"
@@ -108,16 +96,8 @@ export default function Layout() {
           >
             <Icon name="menu" />
           </button>
-          <span className="pf-topbar-title">{section}</span>
-          <span className="pf-topbar-spacer" />
-          <span className="pf-user">
-            <span className="pf-user-avatar">RT</span>
-            <span className="pf-user-text">
-              <span className="pf-user-name">Retail team</span>
-              <span className="pf-user-role">Demo workspace</span>
-            </span>
-          </span>
-        </header>
+          <span className="pf-mobile-brand">Recon</span>
+        </div>
 
         {/* The demo keeps its own page layout, so it gets no extra padding. */}
         <main className={isDemo ? "pf-content-demo" : "pf-content"}>

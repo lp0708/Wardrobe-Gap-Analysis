@@ -12,10 +12,9 @@ import RecommendationsGrid from "../components/RecommendationsGrid";
 import TracePanel from "../components/TracePanel";
 
 /*
- * The original single-page demo, moved here unchanged so it lives at /demo.
- * The only addition: /demo?customer=C004 preselects that customer, so other
- * pages can deep-link into the demo. Without the parameter it behaves exactly
- * as before.
+ * The original single-page demo, living at /demo. Changes from the original:
+ * /demo?customer=C004 preselects that customer so other pages can deep-link
+ * in, and the explanatory footer was removed. Otherwise it behaves as before.
  */
 export default function DemoPage() {
   const [customers, setCustomers] = useState([]);
@@ -151,12 +150,6 @@ export default function DemoPage() {
           <TracePanel trace={result.trace} />
         </>
       )}
-
-      <footer className="site-footer">
-        Customer intelligence and ranking are deterministic Python &middot; a Gemini agent
-        orchestrates the tools, chooses the picks and writes the explanations &middot;
-        seasonal trends are curated demo data
-      </footer>
     </div>
   );
 }

@@ -18,17 +18,10 @@
 
 .site-header-mark {
   flex: none;
+  display: block;
   width: 46px;
   height: 46px;
   margin-top: 4px;
-  border-radius: 12px;
-  background: var(--terracotta);
-  color: #fff;
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: 0.06em;
 }
 
 .site-header .eyebrow {

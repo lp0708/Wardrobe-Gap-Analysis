@@ -1,0 +1,1892 @@
+{
+  "deterministic": {
+    "customer_id": "C002",
+    "profile": {
+      "customer_id": "C002",
+      "preferred_styles": [
+        "formal",
+        "smart-casual"
+      ],
+      "preferred_colors": [
+        "navy",
+        "white",
+        "grey"
+      ],
+      "avoided_colors": [
+        "orange"
+      ],
+      "budget": 2500,
+      "preferred_occasions": [
+        "office"
+      ],
+      "current_season": "monsoon"
+    },
+    "gaps": {
+      "customer_id": "C002",
+      "missing_categories": [
+        {
+          "category": "shoes",
+          "priority": "high",
+          "has_browsing_signal": true,
+          "supporting_product_ids": [
+            "P0146"
+          ]
+        }
+      ],
+      "imbalances": [],
+      "occasion_gaps": [],
+      "color_gap": false
+    },
+    "purchase_patterns": {
+      "customer_id": "C002",
+      "purchase_count": 8,
+      "has_sufficient_history": true,
+      "first_purchase": "2025-01-01",
+      "last_purchase": "2026-05-09",
+      "spend": {
+        "total": 11542,
+        "average": 1443,
+        "median": 1299,
+        "min": 599,
+        "max": 2199,
+        "typical_range": [
+          1036,
+          1999
+        ],
+        "budget": 2500,
+        "average_vs_budget_pct": 58
+      },
+      "category_frequency": [
+        {
+          "category": "outerwear",
+          "count": 4,
+          "share_pct": 50
+        },
+        {
+          "category": "top",
+          "count": 1,
+          "share_pct": 12
+        },
+        {
+          "category": "bottom",
+          "count": 1,
+          "share_pct": 12
+        },
+        {
+          "category": "dress",
+          "count": 1,
+          "share_pct": 12
+        },
+        {
+          "category": "accessory",
+          "count": 1,
+          "share_pct": 12
+        }
+      ],
+      "color_frequency": [
+        {
+          "color": "white",
+          "count": 4,
+          "share_pct": 50
+        },
+        {
+          "color": "navy",
+          "count": 2,
+          "share_pct": 25
+        },
+        {
+          "color": "grey",
+          "count": 2,
+          "share_pct": 25
+        }
+      ],
+      "style_frequency": [
+        {
+          "style": "smart-casual",
+          "count": 6,
+          "share_pct": 75
+        },
+        {
+          "style": "casual",
+          "count": 4,
+          "share_pct": 50
+        },
+        {
+          "style": "formal",
+          "count": 3,
+          "share_pct": 38
+        }
+      ],
+      "occasion_frequency": [
+        {
+          "occasion": "college",
+          "count": 3,
+          "share_pct": 38
+        },
+        {
+          "occasion": "party",
+          "count": 2,
+          "share_pct": 25
+        },
+        {
+          "occasion": "office",
+          "count": 2,
+          "share_pct": 25
+        },
+        {
+          "occasion": "casual",
+          "count": 1,
+          "share_pct": 12
+        }
+      ],
+      "preferred_categories": [
+        "outerwear"
+      ],
+      "preferred_colors": [
+        "white",
+        "navy",
+        "grey"
+      ],
+      "dominant_styles": [
+        "smart-casual",
+        "casual"
+      ],
+      "repeat_purchases": [
+        {
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "count": 3,
+          "product_ids": [
+            "P0155",
+            "P0023",
+            "P0055"
+          ]
+        }
+      ],
+      "recent_purchases": [
+        {
+          "product_id": "P0032",
+          "name": "White Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "white",
+          "date_acquired": "2026-05-09",
+          "price_paid": 1199
+        },
+        {
+          "product_id": "P0055",
+          "name": "Grey Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "grey",
+          "date_acquired": "2026-04-14",
+          "price_paid": 1049
+        },
+        {
+          "product_id": "P0023",
+          "name": "White Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "white",
+          "date_acquired": "2026-02-04",
+          "price_paid": 2149
+        }
+      ],
+      "stated_color_alignment": {
+        "stated_colors": [
+          "grey",
+          "navy",
+          "white"
+        ],
+        "matching_purchases": 8,
+        "share_pct": 100
+      },
+      "headline": "8 purchases, Jan 2025 to May 2026; buys outerwear most often (4); favours white (4 of 8); repeat buyer of sweater (3); usually spends Rs 1,036-1,999, avg Rs 1,443 (58% of budget)."
+    },
+    "browsing_intent": {
+      "customer_id": "C002",
+      "as_of": "2026-09-08",
+      "event_count": 1,
+      "has_sufficient_evidence": false,
+      "headline": "Not enough browsing to infer intent (1 event, 1 view in total).",
+      "category_intents": [
+        {
+          "category": "shoes",
+          "score": 1.0,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0146"
+          ],
+          "subcategories": [
+            "loafers"
+          ],
+          "event_types": {
+            "viewed": 1
+          },
+          "total_views": 1,
+          "dominant_season": null,
+          "dominant_color": null,
+          "dominant_occasion": null
+        }
+      ],
+      "occasion_intents": [
+        {
+          "occasion": "college",
+          "score": 1.0,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0146"
+          ]
+        }
+      ],
+      "color_intents": [
+        {
+          "color": "grey",
+          "score": 1.0,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0146"
+          ]
+        }
+      ],
+      "high_intent_products": []
+    },
+    "seasonal_context": {
+      "customer_id": "C002",
+      "season": "monsoon",
+      "has_trend_data": true,
+      "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+      "trending_categories": {
+        "outerwear": "high",
+        "shoes": "high",
+        "top": "medium"
+      },
+      "trending_subcategories": [
+        "jacket",
+        "overshirt",
+        "boots",
+        "sneakers",
+        "hoodie"
+      ],
+      "relevant_colors": [
+        "black",
+        "navy",
+        "olive",
+        "brown"
+      ],
+      "popular_styles": [
+        "casual",
+        "streetwear"
+      ],
+      "notes": "Light layers and closed footwear for wet weather, in darker shades.",
+      "matches_customer": {
+        "colors": [
+          "navy"
+        ],
+        "styles": []
+      },
+      "in_season_catalogue": {
+        "total": 41,
+        "within_budget": 37,
+        "trending_within_budget": 12
+      },
+      "observed_demand": {
+        "event_count": 22,
+        "customer_count": 8,
+        "top_categories": [
+          {
+            "category": "outerwear",
+            "events": 14,
+            "share_pct": 64
+          },
+          {
+            "category": "bottom",
+            "events": 3,
+            "share_pct": 14
+          },
+          {
+            "category": "top",
+            "events": 2,
+            "share_pct": 9
+          }
+        ]
+      },
+      "headline": "Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand; navy is both in season and a preferred colour."
+    },
+    "ranking": {
+      "customer_id": "C002",
+      "filters": {
+        "category": null,
+        "recommendation_type": null,
+        "limit": 20
+      },
+      "considered": 180,
+      "eligible": 114,
+      "excluded": {
+        "no_personalised_signal": 45,
+        "avoided_color": 13,
+        "already_owned": 8
+      },
+      "candidates": [
+        {
+          "product_id": "P0013",
+          "name": "Navy Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "navy",
+          "price": 999,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 81,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-10-27"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (navy)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in navy"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            }
+          ],
+          "offer": {
+            "offer_id": "O006",
+            "applies_to_product_id": "P0013",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-27"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); active offer: 25% seasonal sale, valid until 2026-10-27; pairs with their Navy Shirt Dress (both for college)."
+        },
+        {
+          "product_id": "P0141",
+          "name": "Black Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "black",
+          "price": 1799,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "TrendStreet",
+          "score": 61,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-09-28"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O019",
+            "applies_to_product_id": "P0141",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-09-28"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); active offer: 25% seasonal sale, valid until 2026-09-28; boots is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0029",
+          "name": "Navy Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "navy",
+          "price": 1249,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 46,
+          "types": [
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "seasonal",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (navy)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in navy"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual/streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            },
+            {
+              "product_id": "P0157",
+              "name": "Navy Casual Shirt",
+              "category": "top",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2025-01-01"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a seasonal pick: pairs with their Navy Shirt Dress (both for college); in a preferred colour (navy); jacket is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0112",
+          "name": "Grey Chinos",
+          "category": "bottom",
+          "subcategory": "chinos",
+          "color": "grey",
+          "price": 1099,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "UrbanWear",
+          "score": 45,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Casual Shirt (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "offer",
+              "points": 4,
+              "evidence": "Active offer: free shipping, valid until 2026-10-29"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0157",
+              "name": "Navy Casual Shirt",
+              "category": "top",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2025-01-01"
+            }
+          ],
+          "offer": {
+            "offer_id": "O013",
+            "applies_to_product_id": "P0112",
+            "offer_type": "free_shipping",
+            "discount_percentage": 0,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-29"
+          },
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Navy Casual Shirt (both for college); in a preferred colour (grey); in season for monsoon."
+        },
+        {
+          "product_id": "P0169",
+          "name": "Brown Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "brown",
+          "price": 2299,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "UrbanWear",
+          "score": 44,
+          "types": [
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "seasonal",
+          "signals": [
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% percentage off, valid until 2026-10-04"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            },
+            {
+              "product_id": "P0157",
+              "name": "Navy Casual Shirt",
+              "category": "top",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2025-01-01"
+            }
+          ],
+          "offer": {
+            "offer_id": "O021",
+            "applies_to_product_id": "P0169",
+            "offer_type": "percentage_off",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-04"
+          },
+          "evidence_summary": "Recommended as a seasonal pick: active offer: 25% percentage off, valid until 2026-10-04; pairs with their Navy Shirt Dress (both for college); in season for monsoon."
+        },
+        {
+          "product_id": "P0094",
+          "name": "Yellow Casual Shirt",
+          "category": "top",
+          "subcategory": "shirt",
+          "color": "yellow",
+          "price": 1099,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 38,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Chinos (both for college)"
+            },
+            {
+              "group": "offer",
+              "points": 7,
+              "evidence": "Active offer: 15% percentage off, valid until 2026-10-25"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "75% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            }
+          ],
+          "offer": {
+            "offer_id": "O010",
+            "applies_to_product_id": "P0094",
+            "offer_type": "percentage_off",
+            "discount_percentage": 15,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-25"
+          },
+          "evidence_summary": "Recommended as a complementary pick: pairs with their White Chinos (both for college); active offer: 15% percentage off, valid until 2026-10-25; in season for monsoon."
+        },
+        {
+          "product_id": "P0150",
+          "name": "Grey Hoodie",
+          "category": "top",
+          "subcategory": "hoodie",
+          "color": "grey",
+          "price": 1399,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 38,
+          "types": [
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "seasonal",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Cardigan (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Hoodie is on the curated monsoon trend list"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0155",
+              "name": "White Cardigan",
+              "category": "outerwear",
+              "color": "white",
+              "occasion": "casual",
+              "date_acquired": "2026-01-21"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a seasonal pick: pairs with their White Cardigan (both for casual); in a preferred colour (grey); hoodie is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0135",
+          "name": "Brown Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "brown",
+          "price": 499,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "VintageVibesCo",
+          "score": 35,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Grey Cardigan (both for office)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Grey Cardigan, bought 2026-04-14)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "75% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0055",
+              "name": "Grey Cardigan",
+              "category": "outerwear",
+              "color": "grey",
+              "occasion": "office",
+              "date_acquired": "2026-04-14"
+            },
+            {
+              "product_id": "P0023",
+              "name": "White Cardigan",
+              "category": "outerwear",
+              "color": "white",
+              "occasion": "office",
+              "date_acquired": "2026-02-04"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Grey Cardigan (both for office); in season for monsoon; matches their preferred smart-casual style."
+        },
+        {
+          "product_id": "P0129",
+          "name": "Blue Leather Belt",
+          "category": "accessory",
+          "subcategory": "belt",
+          "color": "blue",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "UrbanWear",
+          "score": 35,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Grey Cardigan (both for office)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual/formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Grey Cardigan, bought 2026-04-14)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "75% of their purchases are smart-casual"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0055",
+              "name": "Grey Cardigan",
+              "category": "outerwear",
+              "color": "grey",
+              "occasion": "office",
+              "date_acquired": "2026-04-14"
+            },
+            {
+              "product_id": "P0023",
+              "name": "White Cardigan",
+              "category": "outerwear",
+              "color": "white",
+              "occasion": "office",
+              "date_acquired": "2026-02-04"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Grey Cardigan (both for office); in season for monsoon; matches their preferred smart-casual/formal style."
+        },
+        {
+          "product_id": "P0017",
+          "name": "Navy Casual Dress",
+          "category": "dress",
+          "subcategory": "casual-dress",
+          "color": "navy",
+          "price": 1449,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 33,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Cardigan (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (navy)"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in navy"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0155",
+              "name": "White Cardigan",
+              "category": "outerwear",
+              "color": "white",
+              "occasion": "casual",
+              "date_acquired": "2026-01-21"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their White Cardigan (both for casual); in a preferred colour (navy); 2 past purchases in navy."
+        },
+        {
+          "product_id": "P0177",
+          "name": "White Jeans",
+          "category": "bottom",
+          "subcategory": "jeans",
+          "color": "white",
+          "price": 999,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "StyleHub",
+          "score": 31,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Casual Shirt (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (white)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "4 past purchases in white"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0157",
+              "name": "Navy Casual Shirt",
+              "category": "top",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2025-01-01"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Navy Casual Shirt (both for college); in a preferred colour (white); in season for monsoon."
+        },
+        {
+          "product_id": "P0095",
+          "name": "Brown Midi Dress",
+          "category": "dress",
+          "subcategory": "midi-dress",
+          "color": "brown",
+          "price": 2199,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "UrbanWear",
+          "score": 26,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Minimal Watch (both for party)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (White Minimal Watch, bought 2026-05-09)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0032",
+              "name": "White Minimal Watch",
+              "category": "accessory",
+              "color": "white",
+              "occasion": "party",
+              "date_acquired": "2026-05-09"
+            },
+            {
+              "product_id": "P0008",
+              "name": "Grey Blazer",
+              "category": "outerwear",
+              "color": "grey",
+              "occasion": "party",
+              "date_acquired": "2026-01-12"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their White Minimal Watch (both for party); matches their preferred smart-casual style; goes with one of their 3 latest purchases (White Minimal Watch, bought 2026-05-09)."
+        },
+        {
+          "product_id": "P0051",
+          "name": "Blue Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "blue",
+          "price": 1349,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "TrendStreet",
+          "score": 58,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); pairs with their Navy Shirt Dress (both for college); boots is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0146",
+          "name": "Grey Loafers",
+          "category": "shoes",
+          "subcategory": "loafers",
+          "color": "grey",
+          "price": 1499,
+          "season": "winter",
+          "occasion": "college",
+          "store": "EverydayEdit",
+          "score": 57,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal/smart-casual style"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "75% of their purchases are smart-casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); pairs with their Navy Shirt Dress (both for college); in a preferred colour (grey)."
+        },
+        {
+          "product_id": "P0106",
+          "name": "Brown Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "brown",
+          "price": 2099,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "VintageVibesCo",
+          "score": 56,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Navy Shirt Dress (both for college)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0109",
+              "name": "Navy Shirt Dress",
+              "category": "dress",
+              "color": "navy",
+              "occasion": "college",
+              "date_acquired": "2026-01-19"
+            },
+            {
+              "product_id": "P0020",
+              "name": "White Chinos",
+              "category": "bottom",
+              "color": "white",
+              "occasion": "college",
+              "date_acquired": "2025-04-26"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); pairs with their Navy Shirt Dress (both for college); sneakers is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0167",
+          "name": "White Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "white",
+          "price": 799,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "TrendStreet",
+          "score": 55,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (white)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "4 past purchases in white"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); in a preferred colour (white); boots is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0041",
+          "name": "Purple Loafers",
+          "category": "shoes",
+          "subcategory": "loafers",
+          "color": "purple",
+          "price": 1399,
+          "season": "all-season",
+          "occasion": "office",
+          "store": "UrbanWear",
+          "score": 51,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); matches their preferred formal style; for a preferred occasion (office)."
+        },
+        {
+          "product_id": "P0040",
+          "name": "Blue Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "blue",
+          "price": 1499,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "EverydayEdit",
+          "score": 51,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,036-1,999)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); in season for monsoon; sneakers is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0139",
+          "name": "Yellow Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "yellow",
+          "price": 2349,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 50,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); in season for monsoon; sneakers is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0002",
+          "name": "Brown Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "brown",
+          "price": 999,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 48,
+          "types": [
+            "gap",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 30,
+              "evidence": "Fills the high-priority missing shoes gap (they own none; their browsing backs it)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "50% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the high-priority missing shoes gap (they own none; their browsing backs it); boots is on the curated monsoon trend list; shoes has high curated monsoon demand."
+        }
+      ]
+    }
+  },
+  "agent": {
+    "model": "gemini-3.6-flash",
+    "saved_at": "2026-09-14T15:43:49",
+    "summary": "Customer C002 prefers formal and smart-casual styles in navy, white, and grey with a Rs 2,500 budget, and while they frequently purchase outerwear, they currently own zero shoes, making footwear a high-priority wardrobe gap this monsoon season.",
+    "tool_calls": [
+      "get_customer_profile",
+      "analyze_outfit_gaps",
+      "analyze_purchase_patterns",
+      "detect_browsing_intent",
+      "get_seasonal_context",
+      "rank_recommendations",
+      "rank_recommendations"
+    ],
+    "recommendations": [
+      {
+        "product_id": "P0013",
+        "name": "Navy Everyday Sneakers",
+        "score": 81,
+        "types": [
+          "gap",
+          "seasonal",
+          "complementary"
+        ],
+        "primary_type": "gap",
+        "explanation": "Fills their high-priority shoes gap in preferred navy with an active 25% seasonal sale discount, matching seasonal trends for monsoon sneakers and pairing with their Navy Shirt Dress.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0141",
+        "name": "Black Chelsea Boots",
+        "score": 61,
+        "types": [
+          "gap",
+          "seasonal"
+        ],
+        "primary_type": "gap",
+        "explanation": "Addresses the high-priority shoes gap with Black Chelsea Boots on an active 25% seasonal sale, aligning with seasonal trends for monsoon boots and falling within their typical spend range.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0029",
+        "name": "Navy Lightweight Jacket",
+        "score": 46,
+        "types": [
+          "seasonal",
+          "complementary"
+        ],
+        "primary_type": "seasonal",
+        "explanation": "Capitalises on their strong history of outerwear purchases in preferred navy, offering a trending monsoon jacket style that pairs with their Navy Shirt Dress.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0112",
+        "name": "Grey Chinos",
+        "score": 45,
+        "types": [
+          "complementary"
+        ],
+        "primary_type": "complementary",
+        "explanation": "Fits their preferred smart-casual style and grey colour preference for the monsoon season with an active free shipping offer, pairing with their Navy Casual Shirt.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0169",
+        "name": "Brown Cardigan",
+        "score": 44,
+        "types": [
+          "seasonal",
+          "complementary"
+        ],
+        "primary_type": "seasonal",
+        "explanation": "Delivers a smart-casual monsoon cardigan with an active 25% discount, matching high seasonal trends in outerwear demand and pairing with their Navy Shirt Dress.",
+        "explanation_source": "agent"
+      }
+    ]
+  }
+}

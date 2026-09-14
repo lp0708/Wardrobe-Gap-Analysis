@@ -127,54 +127,6 @@ function Analytics({ data }) {
           emptyText="No active offers"
         />
       </Card>
-
-      <Card
-        className="pf-span-2"
-        title="What does the season mean for stock?"
-        subtitle="Catalogue products by season, with the customers' current season highlighted."
-      >
-        <div className="pf-grid-2 pf-grid-inner">
-          <BarList
-            items={Object.entries(seasonal.catalogue_by_season)
-              .sort((a, b) => b[1] - a[1])
-              .map(([season, value]) => ({ key: season, label: capitalize(season), value }))}
-            emphasis={currentSeasons}
-          />
-          <div>
-            {seasonal.seasons.map((s) => (
-              <div key={s.season} className="pf-season">
-                <p className="pf-section-label pf-section-label-flush">
-                  {capitalize(s.season)} &middot; {pluralCustomers(s.customers)}
-                </p>
-                {s.has_trend_data ? (
-                  <>
-                    <p className="pf-body">
-                      Trending: {s.trending_subcategories.join(", ")}. High demand:{" "}
-                      {Object.entries(s.trending_categories)
-                        .filter(([, level]) => level === "high")
-                        .map(([c]) => c)
-                        .join(", ")}
-                      .
-                    </p>
-                    <p className="pf-section-label">In-season products within each customer&rsquo;s budget</p>
-                    <BarList
-                      items={s.shoppable_by_customer.map((c) => ({
-                        key: c.customer_id,
-                        label: c.customer_id,
-                        sub: `${c.trending_within_budget} trending`,
-                        value: c.within_budget,
-                      }))}
-                    />
-                    <p className="pf-footnote">{s.source}</p>
-                  </>
-                ) : (
-                  <p className="pf-muted">No curated trend data for this season.</p>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </Card>
     </div>
   );
 }

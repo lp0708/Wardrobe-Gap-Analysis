@@ -1,0 +1,1898 @@
+{
+  "deterministic": {
+    "customer_id": "C005",
+    "profile": {
+      "customer_id": "C005",
+      "preferred_styles": [
+        "formal",
+        "smart-casual"
+      ],
+      "preferred_colors": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "avoided_colors": [
+        "yellow"
+      ],
+      "budget": 2200,
+      "preferred_occasions": [
+        "office",
+        "party"
+      ],
+      "current_season": "monsoon"
+    },
+    "gaps": {
+      "customer_id": "C005",
+      "missing_categories": [
+        {
+          "category": "accessory",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        }
+      ],
+      "imbalances": [],
+      "occasion_gaps": [
+        {
+          "occasion": "office",
+          "priority": "high",
+          "has_browsing_signal": true,
+          "supporting_product_ids": [
+            "P0023",
+            "P0055",
+            "P0171"
+          ]
+        }
+      ],
+      "color_gap": false
+    },
+    "purchase_patterns": {
+      "customer_id": "C005",
+      "purchase_count": 7,
+      "has_sufficient_history": true,
+      "first_purchase": "2025-04-14",
+      "last_purchase": "2026-04-02",
+      "spend": {
+        "total": 9743,
+        "average": 1392,
+        "median": 1499,
+        "min": 849,
+        "max": 1949,
+        "typical_range": [
+          1199,
+          1524
+        ],
+        "budget": 2200,
+        "average_vs_budget_pct": 63
+      },
+      "category_frequency": [
+        {
+          "category": "bottom",
+          "count": 2,
+          "share_pct": 29
+        },
+        {
+          "category": "outerwear",
+          "count": 2,
+          "share_pct": 29
+        },
+        {
+          "category": "dress",
+          "count": 1,
+          "share_pct": 14
+        },
+        {
+          "category": "top",
+          "count": 1,
+          "share_pct": 14
+        },
+        {
+          "category": "shoes",
+          "count": 1,
+          "share_pct": 14
+        }
+      ],
+      "color_frequency": [
+        {
+          "color": "grey",
+          "count": 3,
+          "share_pct": 43
+        },
+        {
+          "color": "black",
+          "count": 2,
+          "share_pct": 29
+        },
+        {
+          "color": "white",
+          "count": 2,
+          "share_pct": 29
+        }
+      ],
+      "style_frequency": [
+        {
+          "style": "smart-casual",
+          "count": 7,
+          "share_pct": 100
+        },
+        {
+          "style": "formal",
+          "count": 3,
+          "share_pct": 43
+        },
+        {
+          "style": "casual",
+          "count": 3,
+          "share_pct": 43
+        }
+      ],
+      "occasion_frequency": [
+        {
+          "occasion": "college",
+          "count": 3,
+          "share_pct": 43
+        },
+        {
+          "occasion": "casual",
+          "count": 2,
+          "share_pct": 29
+        },
+        {
+          "occasion": "festive",
+          "count": 1,
+          "share_pct": 14
+        },
+        {
+          "occasion": "party",
+          "count": 1,
+          "share_pct": 14
+        }
+      ],
+      "preferred_categories": [
+        "bottom",
+        "outerwear"
+      ],
+      "preferred_colors": [
+        "grey",
+        "black",
+        "white"
+      ],
+      "dominant_styles": [
+        "smart-casual"
+      ],
+      "repeat_purchases": [
+        {
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "count": 2,
+          "product_ids": [
+            "P0048",
+            "P0155"
+          ]
+        }
+      ],
+      "recent_purchases": [
+        {
+          "product_id": "P0155",
+          "name": "White Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "white",
+          "date_acquired": "2026-04-02",
+          "price_paid": 1949
+        },
+        {
+          "product_id": "P0146",
+          "name": "Grey Loafers",
+          "category": "shoes",
+          "subcategory": "loafers",
+          "color": "grey",
+          "date_acquired": "2026-03-20",
+          "price_paid": 1499
+        },
+        {
+          "product_id": "P0176",
+          "name": "White Blouse",
+          "category": "top",
+          "subcategory": "blouse",
+          "color": "white",
+          "date_acquired": "2026-02-21",
+          "price_paid": 849
+        }
+      ],
+      "stated_color_alignment": {
+        "stated_colors": [
+          "black",
+          "grey",
+          "white"
+        ],
+        "matching_purchases": 7,
+        "share_pct": 100
+      },
+      "headline": "7 purchases, Apr 2025 to Apr 2026; buys bottom and outerwear most often (2 each); favours grey (3 of 7); repeat buyer of sweater (2); usually spends Rs 1,199-1,524, avg Rs 1,392 (63% of budget)."
+    },
+    "browsing_intent": {
+      "customer_id": "C005",
+      "as_of": "2026-09-08",
+      "event_count": 3,
+      "has_sufficient_evidence": true,
+      "headline": "Strong interest in office wear (outerwear, top); 2 saved or carted.",
+      "category_intents": [
+        {
+          "category": "top",
+          "score": 4.5,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0171"
+          ],
+          "subcategories": [
+            "shirt"
+          ],
+          "event_types": {
+            "abandoned_cart": 1
+          },
+          "total_views": 3,
+          "dominant_season": null,
+          "dominant_color": null,
+          "dominant_occasion": null
+        },
+        {
+          "category": "outerwear",
+          "score": 3.2,
+          "strength": "moderate",
+          "event_count": 2,
+          "product_ids": [
+            "P0023",
+            "P0055"
+          ],
+          "subcategories": [
+            "sweater"
+          ],
+          "event_types": {
+            "viewed": 1,
+            "abandoned_cart": 1
+          },
+          "total_views": 2,
+          "dominant_season": "winter",
+          "dominant_color": "grey",
+          "dominant_occasion": "office"
+        }
+      ],
+      "occasion_intents": [
+        {
+          "occasion": "office",
+          "score": 7.7,
+          "strength": "strong",
+          "event_count": 3,
+          "product_ids": [
+            "P0023",
+            "P0055",
+            "P0171"
+          ]
+        }
+      ],
+      "color_intents": [
+        {
+          "color": "grey",
+          "score": 6.9,
+          "strength": "strong",
+          "event_count": 2,
+          "product_ids": [
+            "P0055",
+            "P0171"
+          ]
+        },
+        {
+          "color": "white",
+          "score": 0.8,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0023"
+          ]
+        }
+      ],
+      "high_intent_products": [
+        {
+          "product_id": "P0171",
+          "name": "Grey Oxford Shirt",
+          "category": "top",
+          "subcategory": "shirt",
+          "event_type": "abandoned_cart",
+          "view_count": 3,
+          "timestamp": "2026-09-07",
+          "weight": 4.5
+        },
+        {
+          "product_id": "P0055",
+          "name": "Grey Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "event_type": "abandoned_cart",
+          "view_count": 1,
+          "timestamp": "2026-09-01",
+          "weight": 2.4
+        }
+      ]
+    },
+    "seasonal_context": {
+      "customer_id": "C005",
+      "season": "monsoon",
+      "has_trend_data": true,
+      "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+      "trending_categories": {
+        "outerwear": "high",
+        "shoes": "high",
+        "top": "medium"
+      },
+      "trending_subcategories": [
+        "jacket",
+        "overshirt",
+        "boots",
+        "sneakers",
+        "hoodie"
+      ],
+      "relevant_colors": [
+        "black",
+        "navy",
+        "olive",
+        "brown"
+      ],
+      "popular_styles": [
+        "casual",
+        "streetwear"
+      ],
+      "notes": "Light layers and closed footwear for wet weather, in darker shades.",
+      "matches_customer": {
+        "colors": [
+          "black"
+        ],
+        "styles": []
+      },
+      "in_season_catalogue": {
+        "total": 41,
+        "within_budget": 33,
+        "trending_within_budget": 10
+      },
+      "observed_demand": {
+        "event_count": 22,
+        "customer_count": 8,
+        "top_categories": [
+          {
+            "category": "outerwear",
+            "events": 14,
+            "share_pct": 64
+          },
+          {
+            "category": "bottom",
+            "events": 3,
+            "share_pct": 14
+          },
+          {
+            "category": "top",
+            "events": 2,
+            "share_pct": 9
+          }
+        ]
+      },
+      "headline": "Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand; black is both in season and a preferred colour."
+    },
+    "ranking": {
+      "customer_id": "C005",
+      "filters": {
+        "category": null,
+        "recommendation_type": null,
+        "limit": 20
+      },
+      "considered": 180,
+      "eligible": 116,
+      "excluded": {
+        "avoided_color": 10,
+        "over_budget": 26,
+        "no_personalised_signal": 21,
+        "already_owned": 7
+      },
+      "candidates": [
+        {
+          "product_id": "P0055",
+          "name": "Grey Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "grey",
+          "price": 1049,
+          "season": "winter",
+          "occasion": "office",
+          "store": "EverydayEdit",
+          "score": 73,
+          "types": [
+            "gap",
+            "intent"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "intent",
+              "points": 10,
+              "evidence": "Moderate browsing intent for outerwear (2 events)"
+            },
+            {
+              "group": "intent",
+              "points": 8,
+              "evidence": "Customer left this exact product in an abandoned cart"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (sweater)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on grey items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "3 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; moderate browsing intent for outerwear (2 events); customer left this exact product in an abandoned cart."
+        },
+        {
+          "product_id": "P0125",
+          "name": "Black Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "black",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "party",
+          "store": "StyleHub",
+          "score": 71,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Blouse (both for party)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (black)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in black"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (White Blouse, bought 2026-02-21)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0176",
+              "name": "White Blouse",
+              "category": "top",
+              "color": "white",
+              "occasion": "party",
+              "date_acquired": "2026-02-21"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their White Blouse (both for party); in a preferred colour (black)."
+        },
+        {
+          "product_id": "P0067",
+          "name": "Brown Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "brown",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "StyleHub",
+          "score": 71,
+          "types": [
+            "gap",
+            "intent",
+            "seasonal"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "intent",
+              "points": 10,
+              "evidence": "Moderate browsing intent for outerwear (2 events)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (sweater)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; moderate browsing intent for outerwear (2 events); in season for monsoon."
+        },
+        {
+          "product_id": "P0135",
+          "name": "Brown Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "brown",
+          "price": 499,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "VintageVibesCo",
+          "score": 66,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the high-priority office occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0171",
+          "name": "Grey Oxford Shirt",
+          "category": "top",
+          "subcategory": "shirt",
+          "color": "grey",
+          "price": 749,
+          "season": "winter",
+          "occasion": "office",
+          "store": "TrendStreet",
+          "score": 54,
+          "types": [
+            "gap",
+            "intent"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "intent",
+              "points": 8,
+              "evidence": "Customer left this exact product in an abandoned cart (3 views)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on grey items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "3 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; customer left this exact product in an abandoned cart (3 views); in a preferred colour (grey)."
+        },
+        {
+          "product_id": "P0110",
+          "name": "Orange Chinos",
+          "category": "bottom",
+          "subcategory": "chinos",
+          "color": "orange",
+          "price": 1149,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "EverydayEdit",
+          "score": 54,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "offer",
+              "points": 8,
+              "evidence": "Active offer: 20% percentage off, valid until 2026-10-09"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 bottom items before"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O005",
+            "applies_to_product_id": "P0110",
+            "offer_type": "percentage_off",
+            "discount_percentage": 20,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-09"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; active offer: 20% percentage off, valid until 2026-10-09; in season for monsoon."
+        },
+        {
+          "product_id": "P0150",
+          "name": "Grey Hoodie",
+          "category": "top",
+          "subcategory": "hoodie",
+          "color": "grey",
+          "price": 1399,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 51,
+          "types": [
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "seasonal",
+          "signals": [
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% bundle discount, valid until 2026-10-17"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Cardigan (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (grey)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Hoodie is on the curated monsoon trend list"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on grey items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "3 past purchases in grey"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (White Cardigan, bought 2026-04-02)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0155",
+              "name": "White Cardigan",
+              "category": "outerwear",
+              "color": "white",
+              "occasion": "casual",
+              "date_acquired": "2026-04-02"
+            },
+            {
+              "product_id": "P0048",
+              "name": "Black Cardigan",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2025-10-11"
+            }
+          ],
+          "offer": {
+            "offer_id": "O022",
+            "applies_to_product_id": "P0150",
+            "offer_type": "bundle_discount",
+            "discount_percentage": 25,
+            "condition_type": "category_pair",
+            "condition_category": "shoes",
+            "valid_until": "2026-10-17"
+          },
+          "evidence_summary": "Recommended as a seasonal pick: active offer: 25% bundle discount, valid until 2026-10-17; pairs with their White Cardigan (both for casual); in a preferred colour (grey)."
+        },
+        {
+          "product_id": "P0039",
+          "name": "Navy Wide-Leg Trousers",
+          "category": "bottom",
+          "subcategory": "trousers",
+          "color": "navy",
+          "price": 1799,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "CampusCloset",
+          "score": 48,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 bottom items before"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; in season for monsoon; matches their preferred smart-casual style."
+        },
+        {
+          "product_id": "P0041",
+          "name": "Purple Loafers",
+          "category": "shoes",
+          "subcategory": "loafers",
+          "color": "purple",
+          "price": 1399,
+          "season": "all-season",
+          "occasion": "office",
+          "store": "UrbanWear",
+          "score": 43,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; matches their preferred formal style; for a preferred occasion (office)."
+        },
+        {
+          "product_id": "P0141",
+          "name": "Black Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "black",
+          "price": 1799,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "TrendStreet",
+          "score": 41,
+          "types": [
+            "seasonal"
+          ],
+          "primary_type": "seasonal",
+          "signals": [
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-09-28"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (black)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in black"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O019",
+            "applies_to_product_id": "P0141",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-09-28"
+          },
+          "evidence_summary": "Recommended as a seasonal pick: active offer: 25% seasonal sale, valid until 2026-09-28; in a preferred colour (black); boots is on the curated monsoon trend list."
+        },
+        {
+          "product_id": "P0043",
+          "name": "Pink Shirt Dress",
+          "category": "dress",
+          "subcategory": "shirt-dress",
+          "color": "pink",
+          "price": 1249,
+          "season": "summer",
+          "occasion": "office",
+          "store": "EverydayEdit",
+          "score": 34,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (summer item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; matches their preferred smart-casual style; for a preferred occasion (office)."
+        },
+        {
+          "product_id": "P0174",
+          "name": "Navy Shirt Dress",
+          "category": "dress",
+          "subcategory": "shirt-dress",
+          "color": "navy",
+          "price": 1499,
+          "season": "winter",
+          "occasion": "office",
+          "store": "VintageVibesCo",
+          "score": 34,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; matches their preferred smart-casual style; for a preferred occasion (office)."
+        },
+        {
+          "product_id": "P0129",
+          "name": "Blue Leather Belt",
+          "category": "accessory",
+          "subcategory": "belt",
+          "color": "blue",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "UrbanWear",
+          "score": 66,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual/formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the high-priority office occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0071",
+          "name": "Olive Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "olive",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "office",
+          "store": "EverydayEdit",
+          "score": 65,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Olive is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the high-priority office occasion gap; in season for monsoon."
+        },
+        {
+          "product_id": "P0056",
+          "name": "Black Bomber Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "black",
+          "price": 2149,
+          "season": "monsoon",
+          "occasion": "party",
+          "store": "UrbanWear",
+          "score": 61,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 10,
+              "evidence": "Moderate browsing intent for outerwear (2 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their White Blouse (both for party)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (black)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in black"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (White Blouse, bought 2026-02-21)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0176",
+              "name": "White Blouse",
+              "category": "top",
+              "color": "white",
+              "occasion": "party",
+              "date_acquired": "2026-02-21"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: moderate browsing intent for outerwear (2 events); pairs with their White Blouse (both for party); in a preferred colour (black)."
+        },
+        {
+          "product_id": "P0007",
+          "name": "Orange Blazer",
+          "category": "outerwear",
+          "subcategory": "blazer",
+          "color": "orange",
+          "price": 1449,
+          "season": "all-season",
+          "occasion": "office",
+          "store": "TrendStreet",
+          "score": 60,
+          "types": [
+            "gap",
+            "intent"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "intent",
+              "points": 10,
+              "evidence": "Moderate browsing intent for outerwear (2 events)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal/smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,199-1,524)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; moderate browsing intent for outerwear (2 events); matches their preferred formal/smart-casual style."
+        },
+        {
+          "product_id": "P0098",
+          "name": "Pink Leather Belt",
+          "category": "accessory",
+          "subcategory": "belt",
+          "color": "pink",
+          "price": 849,
+          "season": "all-season",
+          "occasion": "office",
+          "store": "EverydayEdit",
+          "score": 58,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the high-priority office occasion gap; matches their preferred smart-casual style."
+        },
+        {
+          "product_id": "P0175",
+          "name": "Olive Trench Coat",
+          "category": "outerwear",
+          "subcategory": "coat",
+          "color": "olive",
+          "price": 1699,
+          "season": "all-season",
+          "occasion": "office",
+          "store": "TrendStreet",
+          "score": 58,
+          "types": [
+            "gap",
+            "intent"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "intent",
+              "points": 10,
+              "evidence": "Moderate browsing intent for outerwear (2 events)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 2 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Olive is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: covers the high-priority office occasion gap; moderate browsing intent for outerwear (2 events); matches their preferred smart-casual style."
+        },
+        {
+          "product_id": "P0114",
+          "name": "Pink Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "pink",
+          "price": 349,
+          "season": "winter",
+          "occasion": "office",
+          "store": "StyleHub",
+          "score": 55,
+          "types": [
+            "gap"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "gap",
+              "points": 18,
+              "evidence": "Covers the high-priority office occasion gap"
+            },
+            {
+              "group": "offer",
+              "points": 8,
+              "evidence": "Active offer: 20% seasonal sale, valid until 2026-09-29"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred formal style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (office)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on office items"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [],
+          "offer": {
+            "offer_id": "O007",
+            "applies_to_product_id": "P0114",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 20,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-09-29"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); covers the high-priority office occasion gap; active offer: 20% seasonal sale, valid until 2026-09-29."
+        },
+        {
+          "product_id": "P0149",
+          "name": "White Tote Bag",
+          "category": "accessory",
+          "subcategory": "bag",
+          "color": "white",
+          "price": 299,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "EverydayEdit",
+          "score": 53,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Grey Shirt Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (white)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred smart-casual style"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "2 past purchases in white"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are smart-casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0136",
+              "name": "Grey Shirt Dress",
+              "category": "dress",
+              "color": "grey",
+              "occasion": "college",
+              "date_acquired": "2025-06-25"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Grey Shirt Dress (both for college); in a preferred colour (white)."
+        }
+      ]
+    }
+  },
+  "agent": {
+    "model": "gemini-3.6-flash",
+    "saved_at": "2026-09-14T15:43:24",
+    "summary": "Customer C005 prefers smart-casual and formal styles in black, white, and grey within a Rs 2,200 budget. The biggest opportunity is addressing their high-priority office occasion gap and missing accessory category while building on strong browsing intent for grey office wear.",
+    "tool_calls": [
+      "get_customer_profile",
+      "analyze_outfit_gaps",
+      "analyze_purchase_patterns",
+      "detect_browsing_intent",
+      "get_seasonal_context",
+      "rank_recommendations",
+      "rank_recommendations"
+    ],
+    "recommendations": [
+      {
+        "product_id": "P0055",
+        "name": "Grey Cardigan",
+        "score": 73,
+        "types": [
+          "gap",
+          "intent"
+        ],
+        "primary_type": "gap",
+        "explanation": "Left in an abandoned cart during recent browsing, this grey smart-casual cardigan addresses C005's high-priority office occasion gap in a preferred colour.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0171",
+        "name": "Grey Oxford Shirt",
+        "score": 54,
+        "types": [
+          "gap",
+          "intent"
+        ],
+        "primary_type": "gap",
+        "explanation": "Abandoned in a recent cart after 3 views, this grey oxford shirt matches C005's preferred colour and smart-casual style while covering their high-priority office occasion gap.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0125",
+        "name": "Black Minimal Watch",
+        "score": 71,
+        "types": [
+          "gap",
+          "complementary"
+        ],
+        "primary_type": "gap",
+        "explanation": "Fills C005's missing accessory gap in a preferred black colour, pairs with their White Blouse for party wear, and aligns with monsoon seasonal trends.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0150",
+        "name": "Grey Hoodie",
+        "score": 51,
+        "types": [
+          "seasonal",
+          "complementary"
+        ],
+        "primary_type": "seasonal",
+        "explanation": "Offered with an active 25% bundle discount, this grey hoodie matches C005's preferred colour, aligns with monsoon seasonal trends, and pairs with their recently purchased White Cardigan.",
+        "explanation_source": "agent"
+      },
+      {
+        "product_id": "P0141",
+        "name": "Black Chelsea Boots",
+        "score": 41,
+        "types": [
+          "seasonal"
+        ],
+        "primary_type": "seasonal",
+        "explanation": "Featuring an active 25% seasonal sale discount, these black Chelsea boots match C005's preferred colour and party occasion while fitting monsoon seasonal trends for boots.",
+        "explanation_source": "agent"
+      }
+    ]
+  }
+}

@@ -35,20 +35,12 @@
 
 .pf-brand-mark {
   flex: none;
+  display: block;
   width: 34px;
   height: 34px;
-  display: grid;
-  place-items: center;
-  border-radius: 9px;
-  background: var(--terracotta);
-  color: #fff;
-  font-size: 12.5px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
 }
 
 .pf-brand-text,
-.pf-user-text,
 .pf-nav-demo-text {
   display: flex;
   flex-direction: column;
@@ -189,20 +181,11 @@
   opacity: 0.85;
 }
 
-.pf-sidebar-foot {
-  margin-top: auto;
-  padding: 12px 10px 0;
-  border-top: 1px solid var(--line);
-  font-size: 11.5px;
-  line-height: 1.5;
-  color: var(--ink-faint);
-}
-
 .pf-scrim {
   display: none;
 }
 
-/* Top bar --------------------------------------------------------------- */
+/* Main column & mobile bar ---------------------------------------------- */
 
 .pf-main {
   min-width: 0;
@@ -210,31 +193,28 @@
   flex-direction: column;
 }
 
-.pf-topbar {
+/* Hidden on desktop; shown only when the sidebar collapses into a drawer. */
+.pf-mobile-bar {
   position: sticky;
   top: 0;
   z-index: 20;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 12px;
-  height: 58px;
-  padding: 0 32px;
+  height: 54px;
+  padding: 0 16px;
   background: rgba(250, 246, 241, 0.94);
   border-bottom: 1px solid var(--line);
 }
 
-.pf-topbar-title {
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--ink-soft);
-}
-
-.pf-topbar-spacer {
-  flex: 1;
+.pf-mobile-brand {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .pf-menu-button {
-  display: none;
+  display: grid;
   width: 36px;
   height: 36px;
   place-items: center;
@@ -243,34 +223,6 @@
   background: var(--card);
   color: var(--ink);
   cursor: pointer;
-}
-
-.pf-user {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.pf-user-avatar {
-  width: 32px;
-  height: 32px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--ink);
-  color: #fff;
-  font-size: 11.5px;
-  font-weight: 650;
-}
-
-.pf-user-name {
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.pf-user-role {
-  font-size: 11.5px;
-  color: var(--ink-faint);
 }
 
 /* Content --------------------------------------------------------------- */
@@ -1336,12 +1288,8 @@
     background: rgba(36, 31, 28, 0.35);
   }
 
-  .pf-menu-button {
-    display: grid;
-  }
-
-  .pf-topbar {
-    padding: 0 16px;
+  .pf-mobile-bar {
+    display: flex;
   }
 
   .pf-content {
@@ -1364,10 +1312,6 @@
 }
 
 @media (max-width: 560px) {
-  .pf-user-text {
-    display: none;
-  }
-
   .pf-toolbar {
     flex-direction: column;
     align-items: stretch;

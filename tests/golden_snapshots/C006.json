@@ -1,0 +1,2159 @@
+{
+  "deterministic": {
+    "customer_id": "C006",
+    "profile": {
+      "customer_id": "C006",
+      "preferred_styles": [
+        "streetwear",
+        "casual"
+      ],
+      "preferred_colors": [
+        "black",
+        "olive",
+        "red"
+      ],
+      "avoided_colors": [
+        "pink"
+      ],
+      "budget": 1600,
+      "preferred_occasions": [
+        "college",
+        "party"
+      ],
+      "current_season": "monsoon"
+    },
+    "gaps": {
+      "customer_id": "C006",
+      "missing_categories": [
+        {
+          "category": "shoes",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        },
+        {
+          "category": "accessory",
+          "priority": "medium",
+          "has_browsing_signal": false,
+          "supporting_product_ids": []
+        }
+      ],
+      "imbalances": [],
+      "occasion_gaps": [],
+      "color_gap": false
+    },
+    "purchase_patterns": {
+      "customer_id": "C006",
+      "purchase_count": 7,
+      "has_sufficient_history": true,
+      "first_purchase": "2025-03-03",
+      "last_purchase": "2026-04-17",
+      "spend": {
+        "total": 11443,
+        "average": 1635,
+        "median": 1449,
+        "min": 1149,
+        "max": 2149,
+        "typical_range": [
+          1249,
+          2099
+        ],
+        "budget": 1600,
+        "average_vs_budget_pct": 102
+      },
+      "category_frequency": [
+        {
+          "category": "outerwear",
+          "count": 4,
+          "share_pct": 57
+        },
+        {
+          "category": "dress",
+          "count": 3,
+          "share_pct": 43
+        }
+      ],
+      "color_frequency": [
+        {
+          "color": "black",
+          "count": 4,
+          "share_pct": 57
+        },
+        {
+          "color": "olive",
+          "count": 3,
+          "share_pct": 43
+        }
+      ],
+      "style_frequency": [
+        {
+          "style": "casual",
+          "count": 7,
+          "share_pct": 100
+        },
+        {
+          "style": "streetwear",
+          "count": 3,
+          "share_pct": 43
+        },
+        {
+          "style": "smart-casual",
+          "count": 1,
+          "share_pct": 14
+        },
+        {
+          "style": "fusion",
+          "count": 1,
+          "share_pct": 14
+        }
+      ],
+      "occasion_frequency": [
+        {
+          "occasion": "college",
+          "count": 3,
+          "share_pct": 43
+        },
+        {
+          "occasion": "party",
+          "count": 2,
+          "share_pct": 29
+        },
+        {
+          "occasion": "casual",
+          "count": 2,
+          "share_pct": 29
+        }
+      ],
+      "preferred_categories": [
+        "outerwear",
+        "dress"
+      ],
+      "preferred_colors": [
+        "black",
+        "olive"
+      ],
+      "dominant_styles": [
+        "casual"
+      ],
+      "repeat_purchases": [
+        {
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "count": 3,
+          "product_ids": [
+            "P0065",
+            "P0056",
+            "P0063"
+          ]
+        },
+        {
+          "category": "dress",
+          "subcategory": "casual-dress",
+          "count": 2,
+          "product_ids": [
+            "P0086",
+            "P0062"
+          ]
+        }
+      ],
+      "recent_purchases": [
+        {
+          "product_id": "P0062",
+          "name": "Olive Casual Dress",
+          "category": "dress",
+          "subcategory": "casual-dress",
+          "color": "olive",
+          "date_acquired": "2026-04-17",
+          "price_paid": 2149
+        },
+        {
+          "product_id": "P0073",
+          "name": "Black Maxi Dress",
+          "category": "dress",
+          "subcategory": "maxi-dress",
+          "color": "black",
+          "date_acquired": "2026-04-15",
+          "price_paid": 1149
+        },
+        {
+          "product_id": "P0048",
+          "name": "Black Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "color": "black",
+          "date_acquired": "2026-02-11",
+          "price_paid": 1349
+        }
+      ],
+      "stated_color_alignment": {
+        "stated_colors": [
+          "black",
+          "olive",
+          "red"
+        ],
+        "matching_purchases": 7,
+        "share_pct": 100
+      },
+      "headline": "7 purchases, Mar 2025 to Apr 2026; buys outerwear most often (4); favours black (4 of 7); repeat buyer of jacket (3); usually spends Rs 1,249-2,099, avg Rs 1,635 (102% of budget)."
+    },
+    "browsing_intent": {
+      "customer_id": "C006",
+      "as_of": "2026-09-08",
+      "event_count": 4,
+      "has_sufficient_evidence": true,
+      "headline": "Strong interest in outerwear (jacket, overshirt, sweater); 1 saved or carted.",
+      "category_intents": [
+        {
+          "category": "outerwear",
+          "score": 7.65,
+          "strength": "strong",
+          "event_count": 4,
+          "product_ids": [
+            "P0067",
+            "P0116",
+            "P0119",
+            "P0142"
+          ],
+          "subcategories": [
+            "jacket",
+            "overshirt",
+            "sweater"
+          ],
+          "event_types": {
+            "viewed": 3,
+            "saved": 1
+          },
+          "total_views": 14,
+          "dominant_season": null,
+          "dominant_color": null,
+          "dominant_occasion": null
+        }
+      ],
+      "occasion_intents": [
+        {
+          "occasion": "college",
+          "score": 4.25,
+          "strength": "moderate",
+          "event_count": 2,
+          "product_ids": [
+            "P0119",
+            "P0142"
+          ]
+        },
+        {
+          "occasion": "casual",
+          "score": 2.0,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0116"
+          ]
+        },
+        {
+          "occasion": "office",
+          "score": 1.4,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0067"
+          ]
+        }
+      ],
+      "color_intents": [
+        {
+          "color": "purple",
+          "score": 3.25,
+          "strength": "moderate",
+          "event_count": 2,
+          "product_ids": [
+            "P0116",
+            "P0119"
+          ]
+        },
+        {
+          "color": "blue",
+          "score": 3.0,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0142"
+          ]
+        },
+        {
+          "color": "brown",
+          "score": 1.4,
+          "strength": "weak",
+          "event_count": 1,
+          "product_ids": [
+            "P0067"
+          ]
+        }
+      ],
+      "high_intent_products": [
+        {
+          "product_id": "P0142",
+          "name": "Blue Overshirt",
+          "category": "outerwear",
+          "subcategory": "overshirt",
+          "event_type": "saved",
+          "view_count": 3,
+          "timestamp": "2026-09-08",
+          "weight": 3.0
+        },
+        {
+          "product_id": "P0116",
+          "name": "Purple Overshirt",
+          "category": "outerwear",
+          "subcategory": "overshirt",
+          "event_type": "viewed",
+          "view_count": 5,
+          "timestamp": "2026-09-07",
+          "weight": 2.0
+        },
+        {
+          "product_id": "P0067",
+          "name": "Brown Cardigan",
+          "category": "outerwear",
+          "subcategory": "sweater",
+          "event_type": "viewed",
+          "view_count": 4,
+          "timestamp": "2026-09-01",
+          "weight": 1.4
+        }
+      ]
+    },
+    "seasonal_context": {
+      "customer_id": "C006",
+      "season": "monsoon",
+      "has_trend_data": true,
+      "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+      "trending_categories": {
+        "outerwear": "high",
+        "shoes": "high",
+        "top": "medium"
+      },
+      "trending_subcategories": [
+        "jacket",
+        "overshirt",
+        "boots",
+        "sneakers",
+        "hoodie"
+      ],
+      "relevant_colors": [
+        "black",
+        "navy",
+        "olive",
+        "brown"
+      ],
+      "popular_styles": [
+        "casual",
+        "streetwear"
+      ],
+      "notes": "Light layers and closed footwear for wet weather, in darker shades.",
+      "matches_customer": {
+        "colors": [
+          "black",
+          "olive"
+        ],
+        "styles": [
+          "casual",
+          "streetwear"
+        ]
+      },
+      "in_season_catalogue": {
+        "total": 41,
+        "within_budget": 25,
+        "trending_within_budget": 9
+      },
+      "observed_demand": {
+        "event_count": 22,
+        "customer_count": 8,
+        "top_categories": [
+          {
+            "category": "outerwear",
+            "events": 14,
+            "share_pct": 64
+          },
+          {
+            "category": "bottom",
+            "events": 3,
+            "share_pct": 14
+          },
+          {
+            "category": "top",
+            "events": 2,
+            "share_pct": 9
+          }
+        ]
+      },
+      "headline": "Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand; black, olive are both in season and a preferred colour."
+    },
+    "ranking": {
+      "customer_id": "C006",
+      "filters": {
+        "category": null,
+        "recommendation_type": null,
+        "limit": 20
+      },
+      "considered": 180,
+      "eligible": 72,
+      "excluded": {
+        "over_budget": 67,
+        "no_personalised_signal": 25,
+        "avoided_color": 12,
+        "already_owned": 4
+      },
+      "candidates": [
+        {
+          "product_id": "P0013",
+          "name": "Navy Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "navy",
+          "price": 999,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 77,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "offer",
+              "points": 9,
+              "evidence": "Active offer: 25% seasonal sale, valid until 2026-10-27"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred streetwear/casual style"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": {
+            "offer_id": "O006",
+            "applies_to_product_id": "P0013",
+            "offer_type": "seasonal_sale",
+            "discount_percentage": 25,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-27"
+          },
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); active offer: 25% seasonal sale, valid until 2026-10-27; pairs with their Olive Casual Dress (both for college)."
+        },
+        {
+          "product_id": "P0029",
+          "name": "Navy Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "navy",
+          "price": 1249,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 75,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual/streetwear style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (jacket)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual/streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); pairs with their Olive Casual Dress (both for college); matches their preferred casual/streetwear style."
+        },
+        {
+          "product_id": "P0158",
+          "name": "Beige Overshirt",
+          "category": "outerwear",
+          "subcategory": "overshirt",
+          "color": "beige",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 73,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (overshirt)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Overshirt is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); pairs with their Olive Casual Dress (both for college); in season for monsoon."
+        },
+        {
+          "product_id": "P0125",
+          "name": "Black Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "black",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "party",
+          "store": "StyleHub",
+          "score": 64,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Bomber Jacket (both for party)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (black)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "4 past purchases in black"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0056",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "party",
+              "date_acquired": "2025-11-22"
+            },
+            {
+              "product_id": "P0065",
+              "name": "Olive Lightweight Jacket",
+              "category": "outerwear",
+              "color": "olive",
+              "occasion": "party",
+              "date_acquired": "2025-09-11"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Black Bomber Jacket (both for party); in a preferred colour (black)."
+        },
+        {
+          "product_id": "P0102",
+          "name": "Brown Minimal Watch",
+          "category": "accessory",
+          "subcategory": "watch",
+          "color": "brown",
+          "price": 1349,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "EverydayEdit",
+          "score": 63,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0063",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "college",
+              "date_acquired": "2026-01-30"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Olive Casual Dress (both for college); in season for monsoon."
+        },
+        {
+          "product_id": "P0040",
+          "name": "Blue Everyday Sneakers",
+          "category": "shoes",
+          "subcategory": "sneakers",
+          "color": "blue",
+          "price": 1499,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "EverydayEdit",
+          "score": 58,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred streetwear style"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Sneakers is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); pairs with their Black Maxi Dress (both for casual); in season for monsoon."
+        },
+        {
+          "product_id": "P0004",
+          "name": "Olive Crop Top",
+          "category": "top",
+          "subcategory": "crop-top",
+          "color": "olive",
+          "price": 599,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "StyleHub",
+          "score": 50,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Bomber Jacket (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (olive)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual/streetwear style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "3 past purchases in olive"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Olive is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual/streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0063",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "college",
+              "date_acquired": "2026-01-30"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Black Bomber Jacket (both for college); in a preferred colour (olive); in season for monsoon."
+        },
+        {
+          "product_id": "P0094",
+          "name": "Yellow Casual Shirt",
+          "category": "top",
+          "subcategory": "shirt",
+          "color": "yellow",
+          "price": 1099,
+          "season": "monsoon",
+          "occasion": "college",
+          "store": "CampusCloset",
+          "score": 43,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Bomber Jacket (both for college)"
+            },
+            {
+              "group": "offer",
+              "points": 7,
+              "evidence": "Active offer: 15% percentage off, valid until 2026-10-25"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Top has medium curated monsoon demand"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0063",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "college",
+              "date_acquired": "2026-01-30"
+            }
+          ],
+          "offer": {
+            "offer_id": "O010",
+            "applies_to_product_id": "P0094",
+            "offer_type": "percentage_off",
+            "discount_percentage": 15,
+            "condition_type": "none",
+            "condition_category": null,
+            "valid_until": "2026-10-25"
+          },
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Black Bomber Jacket (both for college); active offer: 15% percentage off, valid until 2026-10-25; in season for monsoon."
+        },
+        {
+          "product_id": "P0017",
+          "name": "Navy Casual Dress",
+          "category": "dress",
+          "subcategory": "casual-dress",
+          "color": "navy",
+          "price": 1449,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 34,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Cardigan (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 3 dress items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Cardigan, bought 2026-02-11)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Navy is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0048",
+              "name": "Black Cardigan",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-02-11"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Black Cardigan (both for casual); matches their preferred casual style; they have bought 3 dress items before."
+        },
+        {
+          "product_id": "P0030",
+          "name": "Brown Festive Dress",
+          "category": "dress",
+          "subcategory": "festive-dress",
+          "color": "brown",
+          "price": 1599,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "TrendStreet",
+          "score": 25,
+          "types": [
+            "complementary"
+          ],
+          "primary_type": "complementary",
+          "signals": [
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Bomber Jacket (both for party)"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 3 dress items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0056",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "party",
+              "date_acquired": "2025-11-22"
+            },
+            {
+              "product_id": "P0065",
+              "name": "Olive Lightweight Jacket",
+              "category": "outerwear",
+              "color": "olive",
+              "occasion": "party",
+              "date_acquired": "2025-09-11"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a complementary pick: pairs with their Black Bomber Jacket (both for party); for a preferred occasion (party); they have bought 3 dress items before."
+        },
+        {
+          "product_id": "P0108",
+          "name": "Brown Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "brown",
+          "price": 1049,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 66,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred streetwear/casual style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (jacket)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); pairs with their Black Maxi Dress (both for casual); in season for monsoon."
+        },
+        {
+          "product_id": "P0079",
+          "name": "Purple Bomber Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "purple",
+          "price": 1249,
+          "season": "monsoon",
+          "occasion": "party",
+          "store": "StyleHub",
+          "score": 63,
+          "types": [
+            "intent",
+            "seasonal"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred streetwear style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (jacket)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on purple items"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); in season for monsoon; matches their preferred streetwear style."
+        },
+        {
+          "product_id": "P0140",
+          "name": "Orange Lightweight Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "orange",
+          "price": 1199,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "EverydayEdit",
+          "score": 61,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred streetwear style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (jacket)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); pairs with their Black Maxi Dress (both for casual); in season for monsoon."
+        },
+        {
+          "product_id": "P0173",
+          "name": "Black Trench Coat",
+          "category": "outerwear",
+          "subcategory": "coat",
+          "color": "black",
+          "price": 1449,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "VintageVibesCo",
+          "score": 61,
+          "types": [
+            "intent",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (black)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "4 past purchases in black"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Black is a curated monsoon colour"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); pairs with their Black Maxi Dress (both for casual); in a preferred colour (black)."
+        },
+        {
+          "product_id": "P0085",
+          "name": "Green Bomber Jacket",
+          "category": "outerwear",
+          "subcategory": "jacket",
+          "color": "green",
+          "price": 1599,
+          "season": "all-season",
+          "occasion": "party",
+          "store": "VintageVibesCo",
+          "score": 58,
+          "types": [
+            "intent",
+            "seasonal"
+          ],
+          "primary_type": "intent",
+          "signals": [
+            {
+              "group": "intent",
+              "points": 18,
+              "evidence": "Strong browsing intent for outerwear (4 events)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "intent",
+              "points": 5,
+              "evidence": "Same type they have been browsing (jacket)"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Jacket is on the curated monsoon trend list"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (party)"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Outerwear has high curated monsoon demand"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "They have bought 4 outerwear items before"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "Priced within their usual spend (Rs 1,249-2,099)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [],
+          "offer": null,
+          "evidence_summary": "Recommended as a browsing intent pick: strong browsing intent for outerwear (4 events); matches their preferred casual style; same type they have been browsing (jacket)."
+        },
+        {
+          "product_id": "P0018",
+          "name": "Blue Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "blue",
+          "price": 849,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "TrendStreet",
+          "score": 57,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); pairs with their Black Maxi Dress (both for casual); in season for monsoon."
+        },
+        {
+          "product_id": "P0025",
+          "name": "Olive Everyday Backpack",
+          "category": "accessory",
+          "subcategory": "bag",
+          "color": "olive",
+          "price": 599,
+          "season": "winter",
+          "occasion": "college",
+          "store": "TrendStreet",
+          "score": 55,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 8,
+              "evidence": "In a preferred colour (olive)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "purchase",
+              "points": 4,
+              "evidence": "3 past purchases in olive"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "penalty",
+              "points": -6,
+              "evidence": "Off-season (winter item during monsoon)"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0063",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "college",
+              "date_acquired": "2026-01-30"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Olive Casual Dress (both for college); in a preferred colour (olive)."
+        },
+        {
+          "product_id": "P0002",
+          "name": "Brown Chelsea Boots",
+          "category": "shoes",
+          "subcategory": "boots",
+          "color": "brown",
+          "price": 999,
+          "season": "all-season",
+          "occasion": "casual",
+          "store": "UrbanWear",
+          "score": 55,
+          "types": [
+            "gap",
+            "seasonal",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing shoes gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "trend",
+              "points": 5,
+              "evidence": "Boots is on the curated monsoon trend list"
+            },
+            {
+              "group": "trend",
+              "points": 4,
+              "evidence": "Shoes has high curated monsoon demand"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Brown is a curated monsoon colour"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing shoes gap (they own none); pairs with their Black Maxi Dress (both for casual); matches their preferred casual style."
+        },
+        {
+          "product_id": "P0149",
+          "name": "White Tote Bag",
+          "category": "accessory",
+          "subcategory": "bag",
+          "color": "white",
+          "price": 299,
+          "season": "all-season",
+          "occasion": "college",
+          "store": "EverydayEdit",
+          "score": 53,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Olive Casual Dress (both for college)"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual style"
+            },
+            {
+              "group": "preference",
+              "points": 5,
+              "evidence": "For a preferred occasion (college)"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on college items"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Olive Casual Dress, bought 2026-04-17)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "seasonal",
+              "points": 2,
+              "evidence": "All-season item"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0062",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2026-04-17"
+            },
+            {
+              "product_id": "P0063",
+              "name": "Black Bomber Jacket",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "college",
+              "date_acquired": "2026-01-30"
+            },
+            {
+              "product_id": "P0086",
+              "name": "Olive Casual Dress",
+              "category": "dress",
+              "color": "olive",
+              "occasion": "college",
+              "date_acquired": "2025-03-03"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Olive Casual Dress (both for college); matches their preferred casual style."
+        },
+        {
+          "product_id": "P0159",
+          "name": "Purple Cap",
+          "category": "accessory",
+          "subcategory": "cap",
+          "color": "purple",
+          "price": 499,
+          "season": "monsoon",
+          "occasion": "casual",
+          "store": "StyleHub",
+          "score": 52,
+          "types": [
+            "gap",
+            "complementary"
+          ],
+          "primary_type": "gap",
+          "signals": [
+            {
+              "group": "gap",
+              "points": 20,
+              "evidence": "Fills the medium-priority missing accessory gap (they own none)"
+            },
+            {
+              "group": "complementary",
+              "points": 8,
+              "evidence": "Pairs with their Black Maxi Dress (both for casual)"
+            },
+            {
+              "group": "seasonal",
+              "points": 6,
+              "evidence": "In season for monsoon"
+            },
+            {
+              "group": "preference",
+              "points": 6,
+              "evidence": "Matches their preferred casual/streetwear style"
+            },
+            {
+              "group": "intent",
+              "points": 4,
+              "evidence": "Their browsing centres on purple items"
+            },
+            {
+              "group": "complementary",
+              "points": 3,
+              "evidence": "Goes with one of their 3 latest purchases (Black Maxi Dress, bought 2026-04-15)"
+            },
+            {
+              "group": "purchase",
+              "points": 3,
+              "evidence": "100% of their purchases are casual"
+            },
+            {
+              "group": "trend",
+              "points": 2,
+              "evidence": "Casual/streetwear style is on the curated monsoon trend list"
+            }
+          ],
+          "pairs_with": [
+            {
+              "product_id": "P0073",
+              "name": "Black Maxi Dress",
+              "category": "dress",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-04-15"
+            },
+            {
+              "product_id": "P0048",
+              "name": "Black Cardigan",
+              "category": "outerwear",
+              "color": "black",
+              "occasion": "casual",
+              "date_acquired": "2026-02-11"
+            }
+          ],
+          "offer": null,
+          "evidence_summary": "Recommended as a wardrobe gap pick: fills the medium-priority missing accessory gap (they own none); pairs with their Black Maxi Dress (both for casual); in season for monsoon."
+        }
+      ]
+    }
+  }
+}
