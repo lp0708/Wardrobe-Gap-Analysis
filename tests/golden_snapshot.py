@@ -188,7 +188,12 @@ def compare(with_agent: bool) -> int:
                 print("    agent                no baseline run - skipped")
             else:
                 old = snapshot["agent"]
-                new = fresh_agent_run(customer_id)
+                try:
+                    new = fresh_agent_run(customer_id)
+                except Exception as exc:  # quota or model overload: skip this run, keep comparing
+                    print(f"    agent                SKIPPED - agent run failed: {exc}")
+                    failed_customers += failed
+                    continue
                 old_ids = [r["product_id"] for r in old["recommendations"]]
                 new_ids = [r["product_id"] for r in new["recommendations"]]
                 shared = [pid for pid in new_ids if pid in old_ids]
