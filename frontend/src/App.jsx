@@ -1,22 +1,28 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import "./App.css";
-import { getCustomer, listCustomers, recommend } from "./api";
-import CustomerSelector from "./components/CustomerSelector";
+import { getIntelligence, listCustomers, recommend } from "./api";
+import CustomerOverview from "./components/CustomerOverview";
+import CustomerRoster from "./components/CustomerRoster";
 import GapsPanel from "./components/GapsPanel";
 import Header from "./components/Header";
+import IntelligencePanel from "./components/IntelligencePanel";
 import RecommendationsGrid from "./components/RecommendationsGrid";
 import TracePanel from "./components/TracePanel";
 
 export default function App() {
   const [customers, setCustomers] = useState([]);
   const [selectedId, setSelectedId] = useState("");
-  const [profile, setProfile] = useState(null);
-  const [profileLoading, setProfileLoading] = useState(false);
+  const [intel, setIntel] = useState(null);
+  const [intelLoading, setIntelLoading] = useState(false);
 
   const [result, setResult] = useState(null);
   const [running, setRunning] = useState(false);
   const [error, setError] = useState("");
+
+  // The customer the latest request was for, so a slow response for a
+  // previously selected customer can't overwrite the current one.
+  const latestId = useRef("");
 
   useEffect(() => {
     listCustomers()
@@ -25,26 +31,28 @@ export default function App() {
   }, []);
 
   function handleSelect(id) {
+    latestId.current = id;
     setSelectedId(id);
+    setIntel(null);
     setResult(null);
     setError("");
-    setProfile(null);
-    if (!id) return;
+    setIntelLoading(true);
 
-    setProfileLoading(true);
-    getCustomer(id)
-      .then(setProfile)
-      .catch((err) => setError(err.message))
-      .finally(() => setProfileLoading(false));
+    getIntelligence(id)
+      .then((data) => latestId.current === id && setIntel(data))
+      .catch((err) => latestId.current === id && setError(err.message))
+      .finally(() => latestId.current === id && setIntelLoading(false));
   }
 
   function handleRun() {
+    const id = selectedId;
     setRunning(true);
     setError("");
     setResult(null);
-    recommend(selectedId)
-      .then(setResult)
-      .catch((err) => setError(err.message))
+
+    recommend(id)
+      .then((data) => latestId.current === id && setResult(data))
+      .catch((err) => latestId.current === id && setError(err.message))
       .finally(() => setRunning(false));
   }
 
@@ -52,35 +60,51 @@ export default function App() {
     <div className="page">
       <Header />
 
-      <CustomerSelector
+      <CustomerRoster
         customers={customers}
         selectedId={selectedId}
         onSelect={handleSelect}
-        profile={profile}
-        loading={profileLoading}
+        disabled={running}
       />
 
-      {profile && (
-        <section className="panel run-panel">
-          <div>
-            <p className="eyebrow">Step 2</p>
-            <h2 className="panel-title">Run the agent</h2>
-            <p className="panel-sub run-sub">
-              The agent makes several round trips to the model and executes each tool
-              call in between &mdash; this takes a few seconds.
-            </p>
-          </div>
-          <button className="run-button" onClick={handleRun} disabled={running}>
-            {running ? (
-              <>
-                <span className="spinner" />
-                Thinking&hellip;
-              </>
-            ) : (
-              <>Recommend for {selectedId}</>
-            )}
-          </button>
+      {intelLoading && (
+        <section className="panel">
+          <p className="hint">Analysing {selectedId}&hellip;</p>
         </section>
+      )}
+
+      {intel && (
+        <>
+          <CustomerOverview profile={intel.profile} />
+          <IntelligencePanel
+            purchases={intel.purchase_patterns}
+            intent={intel.browsing_intent}
+            seasonal={intel.seasonal_context}
+          />
+          <GapsPanel gaps={intel.gaps} />
+
+          <section className="panel run-panel">
+            <div>
+              <p className="eyebrow">Step 2</p>
+              <h2 className="panel-title">Generate recommendations</h2>
+              <p className="panel-sub run-sub">
+                The agent decides which tools to call, ranks the catalogue with the
+                recommendation engine, picks 3&ndash;5 products and explains each one. This
+                takes a few seconds.
+              </p>
+            </div>
+            <button className="run-button" onClick={handleRun} disabled={running}>
+              {running ? (
+                <>
+                  <span className="spinner" />
+                  Agent working&hellip;
+                </>
+              ) : (
+                <>Recommend for {selectedId}</>
+              )}
+            </button>
+          </section>
+        </>
       )}
 
       {error && (
@@ -91,9 +115,11 @@ export default function App() {
       )}
 
       {running && (
-        <section className="panel skeleton-panel">
+        <section className="panel">
           <p className="eyebrow">Working</p>
-          <h2 className="panel-title">Reading the closet, hunting for gaps&hellip;</h2>
+          <h2 className="panel-title">
+            Reviewing signals and ranking the catalogue&hellip;
+          </h2>
           <div className="skeleton-rows">
             <span className="skeleton" />
             <span className="skeleton" />
@@ -104,15 +130,15 @@ export default function App() {
 
       {result && (
         <>
-          <GapsPanel gaps={result.gaps} />
+          <RecommendationsGrid result={result} />
           <TracePanel trace={result.trace} />
-          <RecommendationsGrid recommendations={result.recommendations} />
         </>
       )}
 
       <footer className="site-footer">
-        Gap analysis is deterministic Python &middot; recommendations are chosen by a
-        Gemini agent with manual function calling
+        Customer intelligence and ranking are deterministic Python &middot; a Gemini agent
+        orchestrates the tools, chooses the picks and writes the explanations &middot;
+        seasonal trends are curated demo data
       </footer>
     </div>
   );

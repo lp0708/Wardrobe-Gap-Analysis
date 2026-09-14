@@ -140,3 +140,30 @@ def analyze_outfit_gaps(customer_id: str) -> dict:
         "occasion_gaps": occasion_gaps,
         "color_gap": color_gap,
     }
+
+
+def gap_matches(product: dict, gaps: dict, preferred_colors: list) -> list:
+    """The reported gaps a product actually addresses.
+
+    This is the only place a product is tied to a gap, so a recommendation can
+    never claim to fill a gap that analyze_outfit_gaps() did not report.
+    """
+    matches = []
+    for gap in gaps["missing_categories"]:
+        if gap["category"] == product["category"]:
+            matches.append({"kind": "missing_category", "category": gap["category"],
+                            "priority": gap["priority"],
+                            "has_browsing_signal": gap["has_browsing_signal"]})
+    for gap in gaps["imbalances"]:
+        if gap["undersupplied"] == product["category"]:
+            matches.append({"kind": "imbalance", "category": gap["undersupplied"],
+                            "priority": gap["priority"], "oversupplied": gap["oversupplied"],
+                            "oversupplied_count": gap["oversupplied_count"],
+                            "undersupplied_count": gap["undersupplied_count"]})
+    for gap in gaps["occasion_gaps"]:
+        if gap["occasion"] == product["occasion"]:
+            matches.append({"kind": "occasion", "occasion": gap["occasion"],
+                            "priority": gap["priority"]})
+    if gaps["color_gap"] and product["color"] in preferred_colors:
+        matches.append({"kind": "color", "color": product["color"], "priority": "medium"})
+    return matches

@@ -27,6 +27,7 @@ async function request(path, options) {
 
 export const listCustomers = () => request("/customers");
 
-export const getCustomer = (id) => request(`/customers/${id}`);
+// Deterministic analysis - instant, no model call.
+export const getIntelligence = (id) => request(`/customers/${id}/intelligence`);
 
 export const recommend = (id) => request(`/recommend/${id}`, { method: "POST" });

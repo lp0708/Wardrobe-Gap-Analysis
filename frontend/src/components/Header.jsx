@@ -1,13 +1,14 @@
 export default function Header() {
   return (
     <header className="site-header">
-      <div className="site-header-mark">WG</div>
+      <div className="site-header-mark">RA</div>
       <div>
-        <h1 className="site-title">Wardrobe Gap Agent</h1>
+        <p className="eyebrow">For retailers</p>
+        <h1 className="site-title">Retail Personalisation Agent</h1>
         <p className="site-tagline">
-          Reads a shopper&rsquo;s closet and browsing history, works out what&rsquo;s
-          actually missing, and picks products to fill it &mdash; showing its reasoning
-          step by step.
+          Profile a customer from their purchases, browsing and season, see the signals
+          that matter, and get product and offer recommendations with the evidence behind
+          every pick.
         </p>
       </div>
     </header>

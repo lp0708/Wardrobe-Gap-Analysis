@@ -26,17 +26,19 @@ export default function GapsPanel({ gaps }) {
 
   return (
     <section className="panel">
-      <p className="eyebrow">What&rsquo;s missing</p>
-      <h2 className="panel-title">Wardrobe gaps</h2>
+      <p className="eyebrow">Wardrobe opportunities</p>
+      <h2 className="panel-title">Gaps in what they own</h2>
       <p className="panel-sub">
-        Found deterministically from the closet and cross-referenced against browsing
-        history. A gap the shopper has already been looking at is marked high priority.
+        Found deterministically from the wardrobe and cross-referenced against browsing. A gap
+        the customer has already been browsing towards is marked high priority. Only these
+        count as gaps &mdash; nothing else is ever presented as one.
       </p>
 
       {total === 0 && !gaps.color_gap ? (
         <p className="empty">
-          No gaps found &mdash; this wardrobe already covers every category, occasion and
-          preferred colour.
+          No wardrobe gaps &mdash; this customer already owns every category, preferred occasion
+          and preferred colour. Recommendations will lean on browsing intent, purchase
+          patterns, seasonal fit and pieces that complement what they own.
         </p>
       ) : (
         <ul className="gap-row">

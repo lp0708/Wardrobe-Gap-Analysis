@@ -1,0 +1,26 @@
+{
+  "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+  "seasons": {
+    "monsoon": {
+      "trending_categories": {"outerwear": "high", "shoes": "high", "top": "medium"},
+      "trending_subcategories": ["jacket", "overshirt", "boots", "sneakers", "hoodie"],
+      "relevant_colors": ["black", "navy", "olive", "brown"],
+      "popular_styles": ["casual", "streetwear"],
+      "notes": "Light layers and closed footwear for wet weather, in darker shades."
+    },
+    "winter": {
+      "trending_categories": {"outerwear": "high", "top": "high", "shoes": "medium"},
+      "trending_subcategories": ["coat", "sweater", "jacket", "blazer", "boots"],
+      "relevant_colors": ["black", "brown", "grey", "navy", "olive"],
+      "popular_styles": ["smart-casual", "formal"],
+      "notes": "Warm layering pieces."
+    },
+    "summer": {
+      "trending_categories": {"dress": "high", "top": "high", "bottom": "medium", "shoes": "medium"},
+      "trending_subcategories": ["crop-top", "shorts", "sandals", "maxi-dress", "casual-dress", "cap"],
+      "relevant_colors": ["white", "beige", "yellow", "pink", "blue"],
+      "popular_styles": ["casual"],
+      "notes": "Lighter pieces in pale and bright shades."
+    }
+  }
+}

@@ -4,8 +4,8 @@ each result so the output can actually be checked rather than trusted."""
 import json
 from collections import Counter
 
-import gap_analysis
 import tools
+from intelligence import gap_analysis
 
 CUSTOMERS = [c["customer_id"] for c in tools.CUSTOMERS]
 
