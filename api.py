@@ -6,6 +6,7 @@ Run with:  uvicorn api:app --reload --port 8000
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+import platform_views
 import tools
 from agent import MODEL, AgentError, customer_intelligence, run_agent
 
@@ -56,8 +57,44 @@ def root() -> dict:
             "GET /customers/{customer_id}",
             "GET /customers/{customer_id}/intelligence",
             "POST /recommend/{customer_id}",
+            "GET /platform/overview",
+            "GET /platform/recommendations?customer_id=",
+            "GET /platform/analytics",
         ],
     }
+
+
+# --------------------------------------------------------------------------
+# Platform views - read-only aggregation for the retailer pages. They reuse the
+# intelligence modules, the engine and saved runs; no model calls, no new scoring.
+# --------------------------------------------------------------------------
+
+def _platform(view, *args):
+    try:
+        return view(*args)
+    except Exception as exc:                      # never leak a raw traceback
+        raise HTTPException(status_code=500,
+                            detail=f"Could not build this view: {exc}") from exc
+
+
+@app.get("/platform/overview")
+def platform_overview() -> dict:
+    """Dashboard KPIs, activity and one summary row per customer."""
+    return _platform(platform_views.overview)
+
+
+@app.get("/platform/recommendations")
+def platform_recommendations(customer_id: str | None = None) -> dict:
+    """Agent-selected picks from saved runs plus engine-ranked products."""
+    if customer_id:
+        _require_customer(customer_id)
+    return _platform(platform_views.recommendations, customer_id)
+
+
+@app.get("/platform/analytics")
+def platform_analytics() -> dict:
+    """Aggregates for the analytics page."""
+    return _platform(platform_views.analytics)
 
 
 @app.get("/customers")

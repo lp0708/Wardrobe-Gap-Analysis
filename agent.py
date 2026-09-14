@@ -19,6 +19,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -640,6 +641,21 @@ def _cache_path(customer_id: str) -> Path:
     return CACHE_DIR / f"{customer_id}.v{CACHE_VERSION}.json"
 
 
+def load_saved_run(customer_id: str) -> dict | None:
+    """The latest completed agent run for a customer, or None if there isn't one.
+
+    Every successful run is saved (see run_agent); AGENT_CACHE only controls
+    whether the demo *replays* it. The platform pages read runs through here,
+    with `saved_at` taken from the file so no response shape changes.
+    """
+    path = _cache_path(customer_id)
+    if not path.exists():
+        return None
+    run = json.loads(path.read_text(encoding="utf-8"))
+    run["saved_at"] = datetime.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds")
+    return run
+
+
 def customer_intelligence(customer_id: str, ctx: dict | None = None) -> dict:
     """The deterministic analysis for a customer - no model call involved."""
     ctx = ctx or engine.build_customer_context(customer_id)
@@ -656,8 +672,9 @@ def customer_intelligence(customer_id: str, ctx: dict | None = None) -> dict:
 def run_agent(customer_id: str) -> dict:
     """Run the agentic loop for one customer and return structured output.
 
-    With AGENT_CACHE=1 a completed run is saved and replayed on the next call,
-    which keeps the demo usable on a free-tier key's daily quota.
+    Every completed run is saved as the customer's latest run, so the platform
+    pages can show it. With AGENT_CACHE=1 that saved run is also replayed on the
+    next call, which keeps the demo usable on a free-tier key's daily quota.
     """
     tools.get_customer_profile(customer_id)  # fail fast on an unknown id
 
@@ -741,10 +758,10 @@ def run_agent(customer_id: str) -> dict:
         "turn_capped": capped,
     }
 
-    if CACHE_ENABLED and recommendations:
+    if recommendations and not capped:
         CACHE_DIR.mkdir(exist_ok=True)
         _cache_path(customer_id).write_text(json.dumps(result, indent=2), encoding="utf-8")
-        print(f"[cache] saved run for {customer_id}")
+        print(f"[runs] saved latest run for {customer_id}")
 
     return result
 

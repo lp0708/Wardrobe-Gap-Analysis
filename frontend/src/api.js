@@ -31,3 +31,15 @@ export const listCustomers = () => request("/customers");
 export const getIntelligence = (id) => request(`/customers/${id}/intelligence`);
 
 export const recommend = (id) => request(`/recommend/${id}`, { method: "POST" });
+
+// Platform views - read-only aggregation over the same intelligence and saved runs.
+export const getOverview = () => request("/platform/overview");
+
+export const getPlatformRecommendations = (customerId) =>
+  request(
+    customerId
+      ? `/platform/recommendations?customer_id=${encodeURIComponent(customerId)}`
+      : "/platform/recommendations"
+  );
+
+export const getAnalytics = () => request("/platform/analytics");

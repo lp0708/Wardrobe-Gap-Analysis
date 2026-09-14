@@ -7,9 +7,13 @@ Built for the *Personalized Retail Recommendation Agent* problem statement. The 
 ## Architecture
 
 ```
-React (retailer console)
+React retailer platform
+   ├── Dashboard · Customers · Recommendations · Analytics   (read-only views)
+   └── Demo                                                  (the full AI workflow)
    │
 FastAPI
+   ├── platform_views.py   aggregates the modules, engine and saved runs for the views
+   │
    │
 Gemini agent ── orchestrates: decides which tools to call, chooses the picks, writes explanations
    │
@@ -31,6 +35,23 @@ The jobs are split three ways:
 - **The intelligence modules** produce grounded evidence.
 - **The engine** ranks products against that evidence.
 - **The agent** decides what to look at, which candidates to pick, and how to explain them.
+
+## The platform
+
+The frontend is a retailer-facing app with a persistent sidebar. It collapses into a menu on small screens.
+
+| Route | What it shows |
+|---|---|
+| `/dashboard` | KPIs, opportunity overview, customer activity, latest agent runs, recently active customers |
+| `/customers` | Every customer with purchase and browsing activity, intent strength and reported gaps; filter and search |
+| `/customers/:id` | One customer's intelligence (reusing the demo panels) and their recommendations |
+| `/recommendations` | Agent-selected picks from each customer's latest run plus the engine's other top-ranked products; filter by customer, type, season, source and offer |
+| `/analytics` | Purchases, browsing, gaps, intent, recommendation mix, live offers and seasonal stock, each answering one question |
+| `/demo` | The complete end-to-end AI workflow: select a customer, review intelligence, run the agent, see grounded recommendations and the trace. `/demo?customer=C004` opens it with a customer selected |
+
+The platform views never compute anything new. Every figure is a count or sum over the datasets, the intelligence modules, the recommendation engine and saved agent runs. That way the platform pages and the demo always agree.
+
+Every successful agent run is saved as that customer's latest run in `.agent_cache/`. That is how runs made in the demo appear on the Dashboard and Recommendations pages.
 
 ## Customer intelligence
 
@@ -78,6 +99,9 @@ Each candidate gets one or more **recommendation types**: `gap`, `intent`, `seas
 | `GET /customers/{id}` | Full profile |
 | `GET /customers/{id}/intelligence` | Profile, gaps, purchase patterns, browsing intent, seasonal context. No model call, so it is instant and uses no quota |
 | `POST /recommend/{id}` | Everything above, plus the agent trace, agent brief and grounded recommendations |
+| `GET /platform/overview` | Dashboard KPIs, activity, opportunity overview and one summary row per customer |
+| `GET /platform/recommendations?customer_id=` | Recommendation rows for all customers, or one |
+| `GET /platform/analytics` | Aggregates for the analytics page |
 
 ## Setup
 
@@ -110,7 +134,7 @@ cd frontend
 npm run dev
 ```
 
-Open http://localhost:5173 and select a customer. Their intelligence appears immediately. Click **Recommend** to run the agent.
+Open http://localhost:5173. It opens on the dashboard. Go to **Demo** in the sidebar, select a customer to see their intelligence immediately, then click **Recommend** to run the agent.
 
 ## Configuration
 
@@ -120,14 +144,14 @@ Everything is set in `.env` (see `.env.example`):
 |---|---|---|
 | `GEMINI_API_KEY` | none, required | Get one at https://aistudio.google.com/apikey |
 | `GEMINI_MODEL` | `gemini-3.6-flash` | Which Gemini model the agent uses |
-| `AGENT_CACHE` | `0` | Set to `1` to save each run to `.agent_cache/` and replay it on repeat requests |
+| `AGENT_CACHE` | `0` | Runs are always saved to `.agent_cache/`. Set to `1` to also replay a customer's saved run instead of calling Gemini again |
 
 ### Free-tier quota
 
 A free-tier Gemini key allows about **20 requests per day per model**. One agent run usually uses 3 requests. Two ways around the limit:
 
 - **Switch model.** Quota is counted separately for each model, so changing `GEMINI_MODEL` to another Flash model gives you a new daily allowance.
-- **Pre-warm the cache for demos.** Set `AGENT_CACHE=1` and run each customer once. After that the demo replays saved runs and makes no API calls.
+- **Pre-warm the cache for demos.** Run each customer once, then set `AGENT_CACHE=1`. After that the demo replays saved runs and makes no API calls.
 
 ## Tests
 
