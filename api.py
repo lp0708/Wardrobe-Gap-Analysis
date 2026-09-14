@@ -21,13 +21,17 @@ app = FastAPI(
 # The Vite dev server. 5173 is Vite's default, but it walks up to 5174, 5175...
 # when that port is already taken, so match any localhost port rather than
 # pinning one and failing CORS the moment Vite picks a different number.
-# A deployed frontend adds its origin(s) through ALLOWED_ORIGINS, comma-separated.
+# A deployed frontend adds its origin(s) through ALLOWED_ORIGINS, comma-separated,
+# and ALLOWED_ORIGIN_REGEX for hosts that change per deploy (e.g. Vercel URLs).
 EXTRA_ORIGINS = [o.strip().rstrip("/") for o in os.environ.get("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+ORIGIN_REGEX = r"http://(localhost|127\.0\.0\.1):\d+"
+if os.environ.get("ALLOWED_ORIGIN_REGEX"):
+    ORIGIN_REGEX = f"(?:{ORIGIN_REGEX})|(?:{os.environ['ALLOWED_ORIGIN_REGEX']})"
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", *EXTRA_ORIGINS],
-    allow_origin_regex=r"http://(localhost|127\.0\.0\.1):\d+",
+    allow_origin_regex=ORIGIN_REGEX,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
