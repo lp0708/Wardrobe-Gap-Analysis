@@ -1,4 +1,5 @@
-const BASE = "http://localhost:8000";
+// Set VITE_API_URL at build time for a deployed backend; defaults to local uvicorn.
+const BASE = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "");
 
 async function request(path, options) {
   let response;

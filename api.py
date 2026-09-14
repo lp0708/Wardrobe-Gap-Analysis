@@ -3,6 +3,8 @@
 Run with:  uvicorn api:app --reload --port 8000
 """
 
+import os
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -19,9 +21,12 @@ app = FastAPI(
 # The Vite dev server. 5173 is Vite's default, but it walks up to 5174, 5175...
 # when that port is already taken, so match any localhost port rather than
 # pinning one and failing CORS the moment Vite picks a different number.
+# A deployed frontend adds its origin(s) through ALLOWED_ORIGINS, comma-separated.
+EXTRA_ORIGINS = [o.strip().rstrip("/") for o in os.environ.get("ALLOWED_ORIGINS", "").split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", *EXTRA_ORIGINS],
     allow_origin_regex=r"http://(localhost|127\.0\.0\.1):\d+",
     allow_credentials=True,
     allow_methods=["*"],
