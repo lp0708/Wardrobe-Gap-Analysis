@@ -1,0 +1,1030 @@
+{
+  "customer_id": "C001",
+  "profile": {
+    "customer_id": "C001",
+    "preferred_styles": [
+      "casual",
+      "streetwear"
+    ],
+    "preferred_colors": [
+      "black",
+      "white",
+      "beige"
+    ],
+    "avoided_colors": [
+      "neon"
+    ],
+    "budget": 1500,
+    "preferred_occasions": [
+      "college",
+      "casual"
+    ],
+    "current_season": "monsoon"
+  },
+  "gaps": {
+    "customer_id": "C001",
+    "missing_categories": [
+      {
+        "category": "outerwear",
+        "priority": "high",
+        "has_browsing_signal": true,
+        "supporting_product_ids": [
+          "P0012",
+          "P0048",
+          "P0063",
+          "P0158"
+        ]
+      }
+    ],
+    "imbalances": [],
+    "occasion_gaps": [],
+    "color_gap": false
+  },
+  "purchase_patterns": {
+    "customer_id": "C001",
+    "purchase_count": 7,
+    "has_sufficient_history": true,
+    "first_purchase": "2025-02-05",
+    "last_purchase": "2026-04-19",
+    "spend": {
+      "total": 7843,
+      "average": 1120,
+      "median": 1149,
+      "min": 499,
+      "max": 1849,
+      "typical_range": [
+        724,
+        1449
+      ],
+      "budget": 1500,
+      "average_vs_budget_pct": 75
+    },
+    "category_frequency": [
+      {
+        "category": "top",
+        "count": 2,
+        "share_pct": 29
+      },
+      {
+        "category": "accessory",
+        "count": 2,
+        "share_pct": 29
+      },
+      {
+        "category": "dress",
+        "count": 2,
+        "share_pct": 29
+      },
+      {
+        "category": "shoes",
+        "count": 1,
+        "share_pct": 14
+      }
+    ],
+    "color_frequency": [
+      {
+        "color": "beige",
+        "count": 3,
+        "share_pct": 43
+      },
+      {
+        "color": "black",
+        "count": 3,
+        "share_pct": 43
+      },
+      {
+        "color": "white",
+        "count": 1,
+        "share_pct": 14
+      }
+    ],
+    "style_frequency": [
+      {
+        "style": "casual",
+        "count": 6,
+        "share_pct": 86
+      },
+      {
+        "style": "streetwear",
+        "count": 4,
+        "share_pct": 57
+      },
+      {
+        "style": "fusion",
+        "count": 1,
+        "share_pct": 14
+      }
+    ],
+    "occasion_frequency": [
+      {
+        "occasion": "casual",
+        "count": 4,
+        "share_pct": 57
+      },
+      {
+        "occasion": "college",
+        "count": 2,
+        "share_pct": 29
+      },
+      {
+        "occasion": "office",
+        "count": 1,
+        "share_pct": 14
+      }
+    ],
+    "preferred_categories": [
+      "top",
+      "accessory",
+      "dress"
+    ],
+    "preferred_colors": [
+      "beige",
+      "black"
+    ],
+    "dominant_styles": [
+      "casual",
+      "streetwear"
+    ],
+    "repeat_purchases": [],
+    "recent_purchases": [
+      {
+        "product_id": "P0100",
+        "name": "Beige Midi Dress",
+        "category": "dress",
+        "subcategory": "midi-dress",
+        "color": "beige",
+        "date_acquired": "2026-04-19",
+        "price_paid": 1849
+      },
+      {
+        "product_id": "P0092",
+        "name": "Black Crop Top",
+        "category": "top",
+        "subcategory": "crop-top",
+        "color": "black",
+        "date_acquired": "2025-10-05",
+        "price_paid": 549
+      },
+      {
+        "product_id": "P0089",
+        "name": "White Cap",
+        "category": "accessory",
+        "subcategory": "cap",
+        "color": "white",
+        "date_acquired": "2025-08-11",
+        "price_paid": 899
+      }
+    ],
+    "stated_color_alignment": {
+      "stated_colors": [
+        "beige",
+        "black",
+        "white"
+      ],
+      "matching_purchases": 7,
+      "share_pct": 100
+    },
+    "headline": "7 purchases, Feb 2025 to Apr 2026; buys top, accessory and dress most often (2 each); favours beige and black (3 each of 7); usually spends Rs 724-1,449, avg Rs 1,120 (75% of budget)."
+  },
+  "browsing_intent": {
+    "customer_id": "C001",
+    "as_of": "2026-09-08",
+    "event_count": 4,
+    "has_sufficient_evidence": true,
+    "headline": "Strong interest in outerwear (jacket, overshirt, sweater), mostly monsoon-season pieces; 2 saved or carted.",
+    "category_intents": [
+      {
+        "category": "outerwear",
+        "score": 9.2,
+        "strength": "strong",
+        "event_count": 4,
+        "product_ids": [
+          "P0012",
+          "P0048",
+          "P0063",
+          "P0158"
+        ],
+        "subcategories": [
+          "jacket",
+          "overshirt",
+          "sweater"
+        ],
+        "event_types": {
+          "saved": 1,
+          "viewed": 2,
+          "added_to_cart": 1
+        },
+        "total_views": 13,
+        "dominant_season": "monsoon",
+        "dominant_color": null,
+        "dominant_occasion": "college"
+      }
+    ],
+    "occasion_intents": [
+      {
+        "occasion": "college",
+        "score": 6.6,
+        "strength": "strong",
+        "event_count": 2,
+        "product_ids": [
+          "P0063",
+          "P0158"
+        ]
+      },
+      {
+        "occasion": "casual",
+        "score": 2.6,
+        "strength": "moderate",
+        "event_count": 2,
+        "product_ids": [
+          "P0012",
+          "P0048"
+        ]
+      }
+    ],
+    "color_intents": [
+      {
+        "color": "beige",
+        "score": 4.8,
+        "strength": "strong",
+        "event_count": 2,
+        "product_ids": [
+          "P0012",
+          "P0158"
+        ]
+      },
+      {
+        "color": "black",
+        "score": 4.4,
+        "strength": "moderate",
+        "event_count": 2,
+        "product_ids": [
+          "P0048",
+          "P0063"
+        ]
+      }
+    ],
+    "high_intent_products": [
+      {
+        "product_id": "P0158",
+        "name": "Beige Overshirt",
+        "category": "outerwear",
+        "subcategory": "overshirt",
+        "event_type": "added_to_cart",
+        "view_count": 3,
+        "timestamp": "2026-09-03",
+        "weight": 3.6
+      },
+      {
+        "product_id": "P0063",
+        "name": "Black Bomber Jacket",
+        "category": "outerwear",
+        "subcategory": "jacket",
+        "event_type": "saved",
+        "view_count": 3,
+        "timestamp": "2026-09-05",
+        "weight": 3.0
+      },
+      {
+        "product_id": "P0048",
+        "name": "Black Cardigan",
+        "category": "outerwear",
+        "subcategory": "sweater",
+        "event_type": "viewed",
+        "view_count": 4,
+        "timestamp": "2026-09-03",
+        "weight": 1.4
+      },
+      {
+        "product_id": "P0012",
+        "name": "Beige Denim Jacket",
+        "category": "outerwear",
+        "subcategory": "jacket",
+        "event_type": "viewed",
+        "view_count": 3,
+        "timestamp": "2026-09-02",
+        "weight": 1.2
+      }
+    ]
+  },
+  "seasonal_context": {
+    "customer_id": "C001",
+    "season": "monsoon",
+    "has_trend_data": true,
+    "source": "Curated demo dataset written for this prototype. It encodes plausible seasonal retail trends for an Indian apparel market; it is not derived from market data and makes no forecast.",
+    "trending_categories": {
+      "outerwear": "high",
+      "shoes": "high",
+      "top": "medium"
+    },
+    "trending_subcategories": [
+      "jacket",
+      "overshirt",
+      "boots",
+      "sneakers",
+      "hoodie"
+    ],
+    "relevant_colors": [
+      "black",
+      "navy",
+      "olive",
+      "brown"
+    ],
+    "popular_styles": [
+      "casual",
+      "streetwear"
+    ],
+    "notes": "Light layers and closed footwear for wet weather, in darker shades.",
+    "matches_customer": {
+      "colors": [
+        "black"
+      ],
+      "styles": [
+        "casual",
+        "streetwear"
+      ]
+    },
+    "in_season_catalogue": {
+      "total": 102,
+      "within_budget": 65,
+      "trending_within_budget": 16
+    },
+    "observed_demand": {
+      "event_count": 1304,
+      "customer_count": 87,
+      "top_categories": [
+        {
+          "category": "top",
+          "events": 333,
+          "share_pct": 26
+        },
+        {
+          "category": "accessory",
+          "events": 289,
+          "share_pct": 22
+        },
+        {
+          "category": "outerwear",
+          "events": 252,
+          "share_pct": 19
+        }
+      ]
+    },
+    "headline": "Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand; black is both in season and a preferred colour."
+  },
+  "model": "gemini-3.6-flash",
+  "trace": [
+    {
+      "step": 1,
+      "turn": 1,
+      "tool": "get_customer_profile",
+      "args": {
+        "customer_id": "C001"
+      },
+      "summary": "Profile: budget Rs1500, prefers casual/streetwear styles in black/white/beige, avoids neon, dresses for college/casual in monsoon."
+    },
+    {
+      "step": 2,
+      "turn": 1,
+      "tool": "analyze_outfit_gaps",
+      "args": {
+        "customer_id": "C001"
+      },
+      "summary": "Gap analysis: missing outerwear (high, backed by 4 browsed items)."
+    },
+    {
+      "step": 3,
+      "turn": 1,
+      "tool": "analyze_purchase_patterns",
+      "args": {
+        "customer_id": "C001"
+      },
+      "summary": "Purchase patterns: 7 purchases, Feb 2025 to Apr 2026; buys top, accessory and dress most often (2 each); favours beige and black (3 each of 7); usually spends Rs 724-1,449, avg Rs 1,120 (75% of budget)."
+    },
+    {
+      "step": 4,
+      "turn": 1,
+      "tool": "detect_browsing_intent",
+      "args": {
+        "customer_id": "C001"
+      },
+      "summary": "Browsing intent: Strong interest in outerwear (jacket, overshirt, sweater), mostly monsoon-season pieces; 2 saved or carted."
+    },
+    {
+      "step": 5,
+      "turn": 1,
+      "tool": "get_seasonal_context",
+      "args": {
+        "customer_id": "C001"
+      },
+      "summary": "Seasonal context: Monsoon: jacket, overshirt, boots, sneakers, hoodie are on the curated trend list; outerwear and shoes in high demand; black is both in season and a preferred colour."
+    },
+    {
+      "step": 6,
+      "turn": 2,
+      "tool": "rank_recommendations",
+      "args": {
+        "limit": 10,
+        "customer_id": "C001"
+      },
+      "summary": "Ranked 127 eligible of 420 products; excluded 163 over budget, 125 no personalised signal, 5 already owned. Top: Beige Overshirt (127, gap), Black Bomber Jacket (127, gap), Black Hoodie (63, seasonal)."
+    },
+    {
+      "step": 7,
+      "turn": 2,
+      "tool": "rank_recommendations",
+      "args": {
+        "category": "shoes",
+        "customer_id": "C001",
+        "limit": 5
+      },
+      "summary": "Ranked 18 eligible of 47 products (category=shoes); excluded 17 over budget, 12 no personalised signal. Top: Blue Chelsea Boots (50, seasonal), Navy Everyday Sneakers (50, seasonal), Orange Everyday Sneakers (50, seasonal)."
+    },
+    {
+      "step": 8,
+      "turn": 2,
+      "tool": "rank_recommendations",
+      "args": {
+        "recommendation_type": "complementary",
+        "limit": 5,
+        "customer_id": "C001"
+      },
+      "summary": "Ranked 92 eligible of 420 products (recommendation_type=complementary); excluded 163 over budget, 125 no personalised signal, 5 already owned. Top: Beige Overshirt (127, gap), Black Bomber Jacket (127, gap), Black Cap (59, complementary)."
+    }
+  ],
+  "summary": "Customer C001 prefers casual and streetwear styles in black, white, and beige with a Rs 1,500 budget, and currently has a high-priority outerwear gap backed by strong monsoon browsing. Recommending outerwear pieces to fill this gap alongside trending monsoon footwear and casual staples offers the retailer the strongest opportunity.",
+  "summary_source": "agent",
+  "recommendations": [
+    {
+      "product_id": "P0158",
+      "name": "Beige Overshirt",
+      "category": "outerwear",
+      "subcategory": "overshirt",
+      "color": "beige",
+      "price": 1199,
+      "season": "monsoon",
+      "occasion": "college",
+      "store": "CampusCloset",
+      "score": 127,
+      "types": [
+        "gap",
+        "intent",
+        "seasonal",
+        "complementary"
+      ],
+      "primary_type": "gap",
+      "signals": [
+        {
+          "group": "gap",
+          "points": 30,
+          "evidence": "Fills the high-priority missing outerwear gap (they own none; their browsing backs it)"
+        },
+        {
+          "group": "intent",
+          "points": 18,
+          "evidence": "Strong browsing intent for outerwear (4 events)"
+        },
+        {
+          "group": "intent",
+          "points": 8,
+          "evidence": "Customer added this exact product to their cart (3 views)"
+        },
+        {
+          "group": "complementary",
+          "points": 8,
+          "evidence": "Pairs with their Black Crop Top (both for college)"
+        },
+        {
+          "group": "preference",
+          "points": 8,
+          "evidence": "In a preferred colour (beige)"
+        },
+        {
+          "group": "seasonal",
+          "points": 6,
+          "evidence": "In season for monsoon"
+        },
+        {
+          "group": "preference",
+          "points": 6,
+          "evidence": "Matches their preferred casual style"
+        },
+        {
+          "group": "intent",
+          "points": 5,
+          "evidence": "Same type they have been browsing (overshirt)"
+        },
+        {
+          "group": "trend",
+          "points": 5,
+          "evidence": "Overshirt is on the curated monsoon trend list"
+        },
+        {
+          "group": "preference",
+          "points": 5,
+          "evidence": "For a preferred occasion (college)"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on college items"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on beige items"
+        },
+        {
+          "group": "trend",
+          "points": 4,
+          "evidence": "Outerwear has high curated monsoon demand"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "3 past purchases in beige"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "Priced within their usual spend (Rs 724-1,449)"
+        },
+        {
+          "group": "complementary",
+          "points": 3,
+          "evidence": "Goes with one of their 3 latest purchases (Black Crop Top, bought 2025-10-05)"
+        },
+        {
+          "group": "purchase",
+          "points": 3,
+          "evidence": "86% of their purchases are casual"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Casual style is on the curated monsoon trend list"
+        }
+      ],
+      "pairs_with": [
+        {
+          "product_id": "P0092",
+          "name": "Black Crop Top",
+          "category": "top",
+          "color": "black",
+          "occasion": "college",
+          "date_acquired": "2025-10-05"
+        },
+        {
+          "product_id": "P0005",
+          "name": "Beige Hoodie",
+          "category": "top",
+          "color": "beige",
+          "occasion": "college",
+          "date_acquired": "2025-02-05"
+        }
+      ],
+      "offer": null,
+      "explanation": "Fills C001's high-priority outerwear gap and matches their cart addition, offering a trending monsoon overshirt in preferred beige at Rs 1,199 that pairs with their Black Crop Top.",
+      "explanation_source": "agent",
+      "grounding_issues": [],
+      "selected_by": "agent"
+    },
+    {
+      "product_id": "P0063",
+      "name": "Black Bomber Jacket",
+      "category": "outerwear",
+      "subcategory": "jacket",
+      "color": "black",
+      "price": 1449,
+      "season": "monsoon",
+      "occasion": "college",
+      "store": "StyleHub",
+      "score": 127,
+      "types": [
+        "gap",
+        "intent",
+        "seasonal",
+        "complementary"
+      ],
+      "primary_type": "gap",
+      "signals": [
+        {
+          "group": "gap",
+          "points": 30,
+          "evidence": "Fills the high-priority missing outerwear gap (they own none; their browsing backs it)"
+        },
+        {
+          "group": "intent",
+          "points": 18,
+          "evidence": "Strong browsing intent for outerwear (4 events)"
+        },
+        {
+          "group": "complementary",
+          "points": 8,
+          "evidence": "Pairs with their Black Crop Top (both for college)"
+        },
+        {
+          "group": "preference",
+          "points": 8,
+          "evidence": "In a preferred colour (black)"
+        },
+        {
+          "group": "intent",
+          "points": 6,
+          "evidence": "Customer saved this exact product (3 views)"
+        },
+        {
+          "group": "seasonal",
+          "points": 6,
+          "evidence": "In season for monsoon"
+        },
+        {
+          "group": "preference",
+          "points": 6,
+          "evidence": "Matches their preferred streetwear/casual style"
+        },
+        {
+          "group": "intent",
+          "points": 5,
+          "evidence": "Same type they have been browsing (jacket)"
+        },
+        {
+          "group": "trend",
+          "points": 5,
+          "evidence": "Jacket is on the curated monsoon trend list"
+        },
+        {
+          "group": "preference",
+          "points": 5,
+          "evidence": "For a preferred occasion (college)"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on college items"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on black items"
+        },
+        {
+          "group": "trend",
+          "points": 4,
+          "evidence": "Outerwear has high curated monsoon demand"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "3 past purchases in black"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "Priced within their usual spend (Rs 724-1,449)"
+        },
+        {
+          "group": "complementary",
+          "points": 3,
+          "evidence": "Goes with one of their 3 latest purchases (Black Crop Top, bought 2025-10-05)"
+        },
+        {
+          "group": "purchase",
+          "points": 3,
+          "evidence": "57% of their purchases are streetwear"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Black is a curated monsoon colour"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+        }
+      ],
+      "pairs_with": [
+        {
+          "product_id": "P0092",
+          "name": "Black Crop Top",
+          "category": "top",
+          "color": "black",
+          "occasion": "college",
+          "date_acquired": "2025-10-05"
+        },
+        {
+          "product_id": "P0005",
+          "name": "Beige Hoodie",
+          "category": "top",
+          "color": "beige",
+          "occasion": "college",
+          "date_acquired": "2025-02-05"
+        }
+      ],
+      "offer": null,
+      "explanation": "Addresses the high-priority outerwear gap with a saved monsoon bomber jacket in preferred black and streetwear style, priced at Rs 1,449 and complementary to their Black Crop Top.",
+      "explanation_source": "agent",
+      "grounding_issues": [],
+      "selected_by": "agent"
+    },
+    {
+      "product_id": "P0264",
+      "name": "Black Hoodie",
+      "category": "top",
+      "subcategory": "hoodie",
+      "color": "black",
+      "price": 1249,
+      "season": "monsoon",
+      "occasion": "casual",
+      "store": "StyleHub",
+      "score": 63,
+      "types": [
+        "seasonal"
+      ],
+      "primary_type": "seasonal",
+      "signals": [
+        {
+          "group": "preference",
+          "points": 8,
+          "evidence": "In a preferred colour (black)"
+        },
+        {
+          "group": "seasonal",
+          "points": 6,
+          "evidence": "In season for monsoon"
+        },
+        {
+          "group": "preference",
+          "points": 6,
+          "evidence": "Matches their preferred streetwear style"
+        },
+        {
+          "group": "trend",
+          "points": 5,
+          "evidence": "Hoodie is on the curated monsoon trend list"
+        },
+        {
+          "group": "preference",
+          "points": 5,
+          "evidence": "For a preferred occasion (casual)"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on casual items"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on black items"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "They have bought 2 top items before"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "3 past purchases in black"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "Priced within their usual spend (Rs 724-1,449)"
+        },
+        {
+          "group": "offer",
+          "points": 4,
+          "evidence": "Active offer: free shipping, valid until 2026-10-27"
+        },
+        {
+          "group": "purchase",
+          "points": 3,
+          "evidence": "57% of their purchases are streetwear"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Top has medium curated monsoon demand"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Black is a curated monsoon colour"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Streetwear style is on the curated monsoon trend list"
+        }
+      ],
+      "pairs_with": [],
+      "offer": {
+        "offer_id": "O035",
+        "applies_to_product_id": "P0264",
+        "offer_type": "free_shipping",
+        "discount_percentage": 0,
+        "condition_type": "none",
+        "condition_category": null,
+        "valid_until": "2026-10-27"
+      },
+      "explanation": "Capitalises on the monsoon hoodie trend in preferred black and streetwear style at Rs 1,249, featuring an active free shipping offer valid until 2026-10-27.",
+      "explanation_source": "agent",
+      "grounding_issues": [],
+      "selected_by": "agent"
+    },
+    {
+      "product_id": "P0013",
+      "name": "Navy Everyday Sneakers",
+      "category": "shoes",
+      "subcategory": "sneakers",
+      "color": "navy",
+      "price": 999,
+      "season": "monsoon",
+      "occasion": "college",
+      "store": "CampusCloset",
+      "score": 50,
+      "types": [
+        "seasonal"
+      ],
+      "primary_type": "seasonal",
+      "signals": [
+        {
+          "group": "offer",
+          "points": 9,
+          "evidence": "Active offer: 25% seasonal sale, valid until 2026-10-27"
+        },
+        {
+          "group": "seasonal",
+          "points": 6,
+          "evidence": "In season for monsoon"
+        },
+        {
+          "group": "preference",
+          "points": 6,
+          "evidence": "Matches their preferred streetwear/casual style"
+        },
+        {
+          "group": "trend",
+          "points": 5,
+          "evidence": "Sneakers is on the curated monsoon trend list"
+        },
+        {
+          "group": "preference",
+          "points": 5,
+          "evidence": "For a preferred occasion (college)"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on college items"
+        },
+        {
+          "group": "trend",
+          "points": 4,
+          "evidence": "Shoes has high curated monsoon demand"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "Priced within their usual spend (Rs 724-1,449)"
+        },
+        {
+          "group": "purchase",
+          "points": 3,
+          "evidence": "57% of their purchases are streetwear"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Navy is a curated monsoon colour"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Streetwear/casual style is on the curated monsoon trend list"
+        }
+      ],
+      "pairs_with": [],
+      "offer": {
+        "offer_id": "O006",
+        "applies_to_product_id": "P0013",
+        "offer_type": "seasonal_sale",
+        "discount_percentage": 25,
+        "condition_type": "none",
+        "condition_category": null,
+        "valid_until": "2026-10-27"
+      },
+      "explanation": "Matches the high-demand monsoon sneakers trend for college wear at Rs 999, backed by an active 25% seasonal sale discount valid until 2026-10-27.",
+      "explanation_source": "agent",
+      "grounding_issues": [],
+      "selected_by": "agent"
+    },
+    {
+      "product_id": "P0327",
+      "name": "Beige Chinos",
+      "category": "bottom",
+      "subcategory": "chinos",
+      "color": "beige",
+      "price": 1199,
+      "season": "monsoon",
+      "occasion": "college",
+      "store": "UrbanWear",
+      "score": 57,
+      "types": [
+        "complementary"
+      ],
+      "primary_type": "complementary",
+      "signals": [
+        {
+          "group": "complementary",
+          "points": 8,
+          "evidence": "Pairs with their Black Crop Top (both for college)"
+        },
+        {
+          "group": "preference",
+          "points": 8,
+          "evidence": "In a preferred colour (beige)"
+        },
+        {
+          "group": "seasonal",
+          "points": 6,
+          "evidence": "In season for monsoon"
+        },
+        {
+          "group": "preference",
+          "points": 6,
+          "evidence": "Matches their preferred casual style"
+        },
+        {
+          "group": "preference",
+          "points": 5,
+          "evidence": "For a preferred occasion (college)"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on college items"
+        },
+        {
+          "group": "intent",
+          "points": 4,
+          "evidence": "Their browsing centres on beige items"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "3 past purchases in beige"
+        },
+        {
+          "group": "purchase",
+          "points": 4,
+          "evidence": "Priced within their usual spend (Rs 724-1,449)"
+        },
+        {
+          "group": "complementary",
+          "points": 3,
+          "evidence": "Goes with one of their 3 latest purchases (Black Crop Top, bought 2025-10-05)"
+        },
+        {
+          "group": "purchase",
+          "points": 3,
+          "evidence": "86% of their purchases are casual"
+        },
+        {
+          "group": "trend",
+          "points": 2,
+          "evidence": "Casual style is on the curated monsoon trend list"
+        }
+      ],
+      "pairs_with": [
+        {
+          "product_id": "P0092",
+          "name": "Black Crop Top",
+          "category": "top",
+          "color": "black",
+          "occasion": "college",
+          "date_acquired": "2025-10-05"
+        },
+        {
+          "product_id": "P0005",
+          "name": "Beige Hoodie",
+          "category": "top",
+          "color": "beige",
+          "occasion": "college",
+          "date_acquired": "2025-02-05"
+        }
+      ],
+      "offer": null,
+      "explanation": "Provides a casual monsoon chino in preferred beige for Rs 1,199 that pairs complementarily with their previously purchased Black Crop Top.",
+      "explanation_source": "agent",
+      "grounding_issues": [],
+      "selected_by": "agent"
+    }
+  ],
+  "dropped_recommendations": [],
+  "final_text": "SUMMARY: Customer C001 prefers casual and streetwear styles in black, white, and beige with a Rs 1,500 budget, and currently has a high-priority outerwear gap backed by strong monsoon browsing. Recommending outerwear pieces to fill this gap alongside trending monsoon footwear and casual staples offers the retailer the strongest opportunity.\nP0158 | Fills C001's high-priority outerwear gap and matches their cart addition, offering a trending monsoon overshirt in preferred beige at Rs 1,199 that pairs with their Black Crop Top.\nP0063 | Addresses the high-priority outerwear gap with a saved monsoon bomber jacket in preferred black and streetwear style, priced at Rs 1,449 and complementary to their Black Crop Top.\nP0264 | Capitalises on the monsoon hoodie trend in preferred black and streetwear style at Rs 1,249, featuring an active free shipping offer valid until 2026-10-27.\nP0013 | Matches the high-demand monsoon sneakers trend for college wear at Rs 999, backed by an active 25% seasonal sale discount valid until 2026-10-27.\nP0327 | Provides a casual monsoon chino in preferred beige for Rs 1,199 that pairs complementarily with their previously purchased Black Crop Top.",
+  "turn_capped": false
+}
